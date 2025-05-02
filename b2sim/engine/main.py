@@ -3,7 +3,10 @@ from math import floor, ceil
 from b2sim.engine.info import *
 from b2sim.engine.actions import *
 from b2sim.engine.farms import *
+from b2sim.engine.alt_eco import *
 from copy import deepcopy as dc
+
+from pathlib import Path
 
 # %%
 
@@ -24,6 +27,10 @@ def impact(cash: float, loan: float, amount: float):
     return cash, loan
 
 def writeLog(lines, filename = 'log', path = 'logs/'):
+    
+    path_obj = Path(path)
+    path_obj.mkdir(parents=True, exist_ok=True)
+    
     with open(path + filename + '.txt', 'w') as f:
         for line in lines:
             f.write(line)
@@ -141,14 +148,22 @@ class GameState():
             self.sotf = None
             self.druid_key = 0
 
-        #Next, supply drops!
+        # Next, supply drops!
+        # This should be a list of Sniper objects
         self.supply_drops = initial_state.get('Supply Drops')
-        if self.supply_drops is not None:
-            self.elite_sniper = self.supply_drops['Elite Sniper Index']
-            self.sniper_key = len(self.supply_drops) - 2
-        else:
-            self.elite_sniper = None
-            self.sniper_key = 0
+
+        # Is there an elite sniper among these supply drops?
+        # If so, where is it located?
+        self.elite_sniper = None
+        if self.supply_drops is None:
+            self.supply_drops = []
+        for i in range(len(self.supply_drops)):
+            if self.supply_drops[i].T5 and self.elite_sniper is None:
+                self.elite_sniper = i
+            if self.supply_drops[i].T5 and self.elite_sniper is not None:
+                # Prevents the sim from running with multiple T5 snipers
+                self.supply_drops[i].T5 = False
+                self.supply_drops[i].update()
 
         #Next, heli farms!
         self.heli_farms = initial_state.get('Heli Farms')
@@ -260,8 +275,12 @@ class GameState():
         if self.heli_farms is None:
             self.heli_farms = {}
         if self.supply_drops is None:
-            self.supply_drops = {}
+            self.supply_drops = []
         self.simulation_start_time = 0
+
+        self.max_send_amount = None
+        self.max_eco_amount = None
+        self.max_send_time = None
             
         self.logs.append("MESSAGE FROM GameState.__init__(): ")
         self.logs.append("Initialized Game State!")
@@ -424,6 +443,10 @@ class GameState():
             if self.changeNow():
                 self.changeEcoSend()
             else:
+                # Add code here which changes to the 0 send if for whatever reason there isn't already a send in the queue
+                if self.eco_cost is None:
+                    self.eco_queue[0] = ecoSend(send_name='Zero')
+                    self.changeEcoSend()
                 future_flag = True
 
     def changeNow(self):
@@ -437,6 +460,7 @@ class GameState():
 
         # Do NOT change if there is not a send in the queue to change to
         if not len(self.eco_queue) > 0:
+            self.logs.append("self.changeNow returned False! The queue is empty!")
             return False
         
         # Do change if there is a given time to use that send and we are beyond that given time
@@ -445,6 +469,10 @@ class GameState():
 
         max_flag, eco_flag, time_flag = False, False, False
         
+        # print(self.max_send_amount)
+        # print(self.max_eco_amount)
+        # print(self.max_send_time)
+
         if self.max_send_amount is None or (self.max_send_amount and self.number_of_sends >= self.max_send_amount):
             max_flag = True
         
@@ -458,6 +486,7 @@ class GameState():
         if self.eco_queue[0]['Time'] is None and max_flag and eco_flag and time_flag:
             return True
         
+        self.logs.append("self.changeNow returned False!")
         return False
         
     def changeEcoSend(self):
@@ -720,6 +749,10 @@ class GameState():
                         key = payout['Index']
                         farm = self.farms[key]
                         farm.revenue += new_cash - self.cash
+                    elif payout['Source'] == 'Sniper':
+                        key = payout['Index']
+                        sniper = self.supply_drops[key]
+                        sniper.revenue += new_cash - self.cash
 
                     self.cash, self.loan = new_cash, new_loan
                     self.logs.append("Awarded direct payment %s at time %s"%(round(payout['Payout'],2),round(payout['Time'],2)))
@@ -789,8 +822,8 @@ class GameState():
                 while self.cash >= sniper_globals['Supply Drop Cost'] + self.supply_drop_buffer:
                     made_purchase = True
                     self.cash -= sniper_globals['Supply Drop Cost']
-                    self.supply_drops[self.sniper_key] = payout['Time']
-                    self.sniper_key += 1
+                    self.supply_drops.append(Sniper(payout['Time']))
+                    self.supply_drops[-1].expenses += sniper_globals['Supply Drop Cost']
                     self.logs.append("Purchased a supply drop! (Automated purchase)")
 
             if payout['Time'] <= self.druid_farm_max_buy_time and try_to_buy == True:
@@ -917,14 +950,12 @@ class GameState():
 
 
         #SUPPLY DROPS
-        if self.supply_drops is not None:
-            for key in self.supply_drops.keys():
-                supply_drop = self.supply_drops[key]
-                if key == self.elite_sniper:
-                    payout_amount = sniper_globals['Elite Sniper Payout']
-                else:
-                    payout_amount = sniper_globals['Supply Drop Payout']
+        for i in range(len(self.supply_drops)):
+            sniper = self.supply_drops[i]
+            if sniper.sell_time is None:
+                payout_amount = sniper.payout_amount
 
+                supply_drop = sniper.purchase_time
                 #Determine the earliest supply drop activation that could occur within the interval of interest (self.current_time,target_time]
                 drop_index = max(1,floor(1 + (self.current_time - supply_drop - sniper_globals['Supply Drop Initial Cooldown'])/sniper_globals['Supply Drop Usage Cooldown'])+1)
                 supply_drop_time = supply_drop + sniper_globals['Supply Drop Initial Cooldown'] + sniper_globals['Supply Drop Usage Cooldown']*(drop_index-1)
@@ -934,7 +965,8 @@ class GameState():
                         'Time': supply_drop_time,
                         'Payout Type': 'Direct',
                         'Payout': payout_amount,
-                        'Source': 'Sniper'
+                        'Source': 'Sniper',
+                        'Index': i
                     }
                     payout_times.append(payout_entry)
                     supply_drop_time += sniper_globals['Supply Drop Usage Cooldown']
@@ -963,113 +995,11 @@ class GameState():
                     heli_farm_time += heli_globals['Heli Farm Usage Cooldown']
 
         #FARMS
-        if len(self.farms) > 0:
-            for key, farm in enumerate(self.farms):
-                if farm.sell_time is None:
-                    #If the farm is a monkeynomics, determine the payout times of the active ability
-                    if farm.upgrades[1] == 5:
-                        farm_time = farm.min_use_time
-                        while farm_time <= target_time:
-                            if farm_time > self.current_time:
-                                payout_entry = {
-                                    'Time': farm_time,
-                                    'Payout Type': 'Direct',
-                                    'Payout': farm_globals['Monkeynomics Payout'],
-                                    'Source': 'Farm',
-                                    'Index': key
-                                }
-                                payout_times.append(payout_entry)
-                            farm_time += farm_globals['Monkeynomics Usage Cooldown']
-                        farm.min_use_time = farm_time
-                    
-                    farm_purchase_round = self.rounds.getRoundFromTime(farm.purchase_time)
-                    self.inc = 0
-                    self.flag = False
-                    while self.flag == False:
-                        #If computing farm payments on the same round as we are currently on, precompute the indices the for loop should go through.
-                        #NOTE: This is not necessary at the end because the for loop terminates when a "future" payment is reached.
-                        if self.inc == 0:
-                            if self.current_round > farm_purchase_round:
-                                #When the farm was purchased on a previous round
-                                round_time = self.current_time - self.rounds.round_starts[self.current_round]
-                                loop_start = int(floor(farm.payout_frequency*round_time/self.rounds.nat_send_lens[self.current_round]) + 1)
-                                loop_end = farm.payout_frequency
-                            else: #self.current_round == farm_purhcase_round
-                                #When the farm was purchased on the same round as we are currently on
-                                loop_start = int(floor(farm.payout_frequency*(self.current_time - farm.purchase_time)/self.rounds.nat_send_lens[self.current_round]-1)+1)
-                                loop_end = int(ceil(farm.payout_frequency*(1 - (farm.purchase_time - self.rounds.round_starts[self.current_round])/self.rounds.nat_send_lens[self.current_round])-1)-1)
-                        else:
-                            loop_start = 0
-                            loop_end = farm.payout_frequency
-                        
-                        #self.logs.append("Precomputed the loop indices to be (%s,%s)"%(loop_start,loop_end))
-                        #self.logs.append("Now computing payments at round %s"%(self.current_round + self.inc))
-                        
-                        for i in range(loop_start, loop_end):
-                            #Precompute the value i that this for loop should start at (as opposed to always starting at 0) to avoid redundant computations
-                            #Farm payout rules are different for the round the farm is bought on versus subsequent rounds
-                            if self.current_round + self.inc == farm_purchase_round:
-                                farm_time = farm.purchase_time + (i+1)*self.rounds.nat_send_lens[self.current_round + self.inc]/farm.payout_frequency
-                            else:
-                                farm_time = self.rounds.round_starts[self.current_round + self.inc] + i*self.rounds.nat_send_lens[self.current_round + self.inc]/farm.payout_frequency
-                            
-                            #Check if the payment time occurs within our update window. If it does, add it to the payout times list
-                            if farm_time <= target_time and farm_time > self.current_time:
-                                
-                                #Farm payouts will either immediately be added to the player's cash or added to the monkey bank's account value
-                                #This depends of course on whether the farm is a bank or not.
-                                
-                                #WARNING: If the farm we are dealing with is a bank, we must direct the payment into the bank rather than the player.
-                                #WARNING: If the farm we are dealing with is a MWS, we must check whether we are awarding the MWS bonus payment!
-                                #WARNING: If the farm we are dealing with is a BRF, we must check whether the BRF buff is being applied or not!
-                                
-                                if farm.upgrades[1] >= 3:
-                                    if i == 0 and self.current_round + self.inc > farm_purchase_round:
-                                        #At the start of every round, every bank gets a $400 payment and then is awarded 20% interest.
-                                        payout_entry = {
-                                            'Time': farm_time,
-                                            'Payout Type': 'Bank Interest',
-                                            'Index': key,
-                                            'Source': 'Farm'
-                                        }
-                                        payout_times.append(payout_entry)
-                                    payout_entry = {
-                                        'Time': farm_time,
-                                        'Payout Type': 'Bank Payment',
-                                        'Index': key,
-                                        'Payout': farm.payout(farm_time),
-                                        'Source': 'Farm'
-                                    }
-                                elif i == 0 and farm.upgrades[2] == 5 and self.current_round + self.inc > farm_purchase_round:
-                                    payout_entry = {
-                                        'Time': farm_time,
-                                        'Payout Type': 'Direct',
-                                        'Payout': farm.payout(farm_time, mws_bonus = True),
-                                        'Source': 'Farm',
-                                        'Index': key
-                                    }
-                                elif farm.upgrades[0] == 4 and self.T5_exists[0] == True:
-                                    payout_entry = {
-                                        'Time': farm_time,
-                                        'Payout Type': 'Direct',
-                                        'Payout': farm.payout(farm_time, brf_buff = True),
-                                        'Source': 'Farm',
-                                        'Index': key
-                                    }
-                                else:
-                                    payout_entry = {
-                                        'Time': farm_time,
-                                        'Payout Type': 'Direct',
-                                        'Payout': farm.payout(farm_time),
-                                        'Source': 'Farm',
-                                        'Index': key
-                                    }
-                                payout_times.append(payout_entry)
-                            elif farm_time > target_time:
-                                #self.logs.append("The payout time of %s is too late! Excluding payout time!"%(farm_time))
-                                self.flag = True
-                                break
-                        self.inc += 1
+        for key, farm in enumerate(self.farms):
+            farm_payout_times = farm.computePayoutSchedule(self.current_time, target_time, self.rounds, self.T5_exists[0])
+            for farm_payout_entry in farm_payout_times:
+                farm_payout_entry['Index'] = key
+            payout_times.extend(farm_payout_times)
         
         #BOAT FARMS
         if len(self.boat_farms) > 0:
@@ -1376,6 +1306,10 @@ class GameState():
             for farm in self.farms:
                 farm.h_revenue = farm.revenue
 
+            #For tracking the revenue of snipers
+            for sniper in self.supply_drops:
+                sniper.h_revenue = sniper.revenue
+
             #For tracking the revenue of boat farms
             for key in self.boat_farms.keys():
                 boat_farm = self.boat_farms[key]
@@ -1424,6 +1358,10 @@ class GameState():
                 # Track the revenue made by each farm
                 for farm in self.farms:
                     farm.revenue = farm.h_revenue
+
+                # Track the revenue made by each sniper farm
+                for sniper in self.supply_drops:
+                    sniper.revenue = sniper.h_revenue
 
                 # Track the revenue made by each boat farm
                 for key in self.boat_farms.keys():
@@ -1821,23 +1759,29 @@ class GameState():
             if stage == 'check':
                 h_cash, h_loan = impact(h_cash, h_loan, -1*sniper_globals['Supply Drop Cost'])
             else:
-                self.supply_drops[self.sniper_key] = payout['Time']
-                self.sniper_key += 1
+                self.supply_drops.append(Sniper(payout['Time']))
+                self.supply_drops[-1].expenses = sniper_globals['Supply Drop Cost']
                 self.logs.append("Purchased a supply drop!")
         elif dict_obj['Type'] == 'Sell Supply Drop':
+            ind = dict_obj['Index']
+            sniper = self.supply_drops[ind]
             if stage == 'check':
+                h_new_cash, h_new_loan = h_cash, h_loan
                 if dict_obj['Index'] == self.elite_sniper:
-                    h_cash, h_loan = impact(h_cash, h_loan, game_globals['Sellback Value']*(sniper_globals['Supply Drop Cost'] + sniper_globals['Elite Sniper Upgrade Cost']) )
+                    h_new_cash, h_new_loan = impact(h_cash, h_loan, game_globals['Sellback Value']*(sniper_globals['Supply Drop Cost'] + sniper_globals['Elite Sniper Upgrade Cost']) )
                 else:
-                    h_cash, h_loan = impact(h_cash, h_loan, game_globals['Sellback Value']*sniper_globals['Supply Drop Cost'])
+                    h_new_cash, h_new_loan = impact(h_cash, h_loan, game_globals['Sellback Value']*sniper_globals['Supply Drop Cost'])
+                sniper.h_revenue += h_new_cash - h_cash
+                h_cash, h_loan = h_new_cash, h_new_loan
             else:
                 ind = dict_obj['Index']
                 self.logs.append("Selling the supply drop at index %s"%(ind))
                 #If the supply drop we're selling is actually an E-sniper, then...
-                if self.elite_sniper is not None:
-                    if ind == self.elite_sniper:
-                        self.logs.append("The supply drop being sold is an elite sniper!")
-                        self.elite_sniper = None
+                if self.elite_sniper is not None and ind == self.elite_sniper:
+                    self.logs.append("The supply drop being sold is an elite sniper!")
+                    self.elite_sniper = None
+                    self.supply_drops[ind].T5 = False
+                    self.supply_drops[ind].sell_time = payout['Time']
         elif dict_obj['Type'] == 'Buy Elite Sniper':
             if stage == 'check':
                 #WARNING: There can only be one e-sniper at a time!
@@ -1849,6 +1793,7 @@ class GameState():
             else:
                 ind = dict_obj['Index']
                 self.elite_sniper = ind
+                self.supply_drops[ind].upgrade()
                 self.logs.append("Upgrading the supply drop at index %s into an elite sniper!"%(ind))
         elif dict_obj['Type'] == 'Repeatedly Buy Supply Drops':
             #There is no checking stage for this action
@@ -1877,9 +1822,9 @@ class GameState():
                 if self.special_poperations is not None:
                     if ind == self.special_poperations:
                         self.logs.append("The heli farm being sold is a special poperations!")
-                        self.elite_sniper = None
+                        self.special_poperations = None
                 
-                self.supply_drops.pop(ind)
+                self.heli_farms.pop(ind)
         elif dict_obj['Type'] == 'Buy Special Poperations':
             if stage == 'check':
                 #WARNING: There can only be one Special Poperations on screen at a time!
