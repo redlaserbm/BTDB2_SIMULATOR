@@ -1,0 +1,38 @@
+name: Test and Publish to PyPI
+
+on:
+  push:
+    tags:
+      - 'v*'  # Only run on version tags like v0.1.0, v1.2.3
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v3
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: 🔧 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install build pytest
+          pip install .[analysis]
+
+      - name: ✅ Run tests
+        run: |
+          pytest tests
+
+      - name: 📦 Build package
+        run: |
+          python -m build
+
+      - name: 🚀 Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_API_TOKEN }}

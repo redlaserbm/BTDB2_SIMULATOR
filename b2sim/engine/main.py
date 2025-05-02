@@ -6,6 +6,8 @@ from b2sim.engine.farms import *
 from b2sim.engine.alt_eco import *
 from copy import deepcopy as dc
 
+from pathlib import Path
+
 # %%
 
 
@@ -25,6 +27,10 @@ def impact(cash: float, loan: float, amount: float):
     return cash, loan
 
 def writeLog(lines, filename = 'log', path = 'logs/'):
+    
+    path_obj = Path(path)
+    path_obj.mkdir(parents=True, exist_ok=True)
+    
     with open(path + filename + '.txt', 'w') as f:
         for line in lines:
             f.write(line)
