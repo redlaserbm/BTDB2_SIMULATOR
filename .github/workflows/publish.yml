@@ -1,9 +1,10 @@
 name: Test and Publish to PyPI
 
 on:
-  push:
-    tags:
-      - 'v*'  # Only run on version tags like v0.1.0, v1.2.3
+  pull_request:
+    branches:
+      - main
+      - secondary
 
 jobs:
   build-and-publish:
