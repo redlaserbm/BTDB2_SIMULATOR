@@ -1,10 +1,9 @@
 name: Test and Publish to PyPI
 
 on:
-  pull_request:
+  push:
     branches:
       - main
-      - secondary
 
 jobs:
   build-and-publish:

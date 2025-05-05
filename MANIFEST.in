@@ -4,3 +4,4 @@ include b2sim/templates/nat_send_lengths.csv
 
 exclude notebooks/*
 exclude tests/*
+exclude experiments/*
