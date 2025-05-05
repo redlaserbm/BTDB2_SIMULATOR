@@ -7,3 +7,4 @@ b2sim.egg-info/
 dist/
 .venv
 .pytest_cache
+experiments/

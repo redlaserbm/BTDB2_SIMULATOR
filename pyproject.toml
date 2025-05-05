@@ -4,20 +4,26 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "b2sim"
-version = "2.3.1"
+version = "2.3.2"
 description = "A library for the simulation of eco & farm based strategies in Bloons TD Battles 2"
 authors = [
   { name="redlaserbm", email="redlaserbm@gmail.com" }
 ]
 readme = "README.md"
 license = {file = "LICENSE"}
-requires-python = ">=3.7"
+requires-python = ">=3.10"
 
 [project.optional-dependencies]
 analysis = [
     "pandas",
     "matplotlib"
 ]
+
+[tool.setuptools]
+packages = ["b2sim"]
+
+[tool.setuptools.package-dir]
+"" = "."
 
 [project.urls]
 Homepage = "https://github.com/redlaserbm/BTDB2_SIMULATOR/"

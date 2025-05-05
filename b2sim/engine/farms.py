@@ -22,6 +22,8 @@ class MonkeyFarm():
         self.payout_amount = farm_payout_values[tuple(self.upgrades)][0]
         self.payout_frequency = farm_payout_values[tuple(self.upgrades)][1]
         
+        self.quality_soil_discount = 0.8 if self.upgrades[2] > 0 else 1.0
+
         ##############
         #BANK FEATURES
         ##############
@@ -59,6 +61,9 @@ class MonkeyFarm():
         # Tracks hypothetical revenue while processing the buy queue.
         # In general this is necessary because of the impact of Loans on revenue generation.
         self.h_revenue = 0
+
+    def checkQualitySoil(self):
+        self.quality_soil_discount = 0.8 if self.upgrades[2] > 0 else 1.0
 
     def payout(self, time, mws_bonus = False, brf_buff = False, bank_interest = False):
         #This method should be used over calling self.payout_amount directly because it automatically accounts for overclock & MWS buffs
@@ -244,6 +249,7 @@ class MonkeyFarm():
             self.min_use_time = time + farm_globals['Monkeynomics Initial Cooldown']
 
         self.upgrades = upgrades
+        self.checkQualitySoil()
 
     def overclock(self, time):
         #What tier of farm do we have right now?

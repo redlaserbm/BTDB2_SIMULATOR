@@ -1,3 +1,6 @@
 include b2sim/templates/config.txt
 include b2sim/templates/eco_send_info.csv
 include b2sim/templates/nat_send_lengths.csv
+
+exclude notebooks/*
+exclude tests/*
