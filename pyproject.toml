@@ -21,9 +21,13 @@ analysis = [
 
 [tool.setuptools]
 package-dir = {"" = "src"}
+include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.setuptools.package-data]
+"b2sim.templates" = ["*.csv"]
 
 [project.urls]
 Homepage = "https://github.com/redlaserbm/BTDB2_SIMULATOR/"
