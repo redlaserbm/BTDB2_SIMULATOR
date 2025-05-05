@@ -1471,7 +1471,10 @@ class GameState():
 
                         #How much do those upgrades cost?
                         for j in range(times_to_upgrade):
-                            upgrades_costs += farm_upgrades_costs[i][farm.upgrades[i] + j]
+                            if i < 2:
+                                upgrades_costs += farm.quality_soil_discount*farm_upgrades_costs[i][farm.upgrades[i]+j]
+                            else:
+                                upgrades_costs += farm_upgrades_costs[i][farm.upgrades[i] + j]
 
                     h_cash, h_loan = impact(h_cash, h_loan, -1*upgrades_costs)
 
@@ -1483,7 +1486,11 @@ class GameState():
                         self.warnings.append(len(self.logs)-1)
                         self.valid_action_flag = False
                     
-                    h_cash, h_loan = impact(h_cash, h_loan, -1*farm_upgrades_costs[path][farm.upgrades[path]])
+                    val = -1*farm_upgrades_costs[path][farm.upgrades[path]] 
+                    if path < 2:
+                        val = farm.quality_soil_discount*val
+
+                    h_cash, h_loan = impact(h_cash, h_loan, val)
             else:
                 if upgrades is not None:
                     farm.upgrade(payout['Time'], upgrades, mode = 'Upgrades')
