@@ -1,7 +1,5 @@
 #IMPORT NECESSARY LIBRARIES
-import csv
 from math import floor, ceil
-import os
 from bisect import bisect_right
 
 nat_send = [0.5,18,17,18,23,21,17,17,15,14,5,8,11,12.5,5.5,9,27,33,20,30,1,10,24,6,54,30,21,18,17,40,1,48.294,9.53,22.75,8.44166,41.142,21.698,82.385,58.92083,90,2,35.68,25,21,14.55,11.9,35,15,32.12,30,0.1]

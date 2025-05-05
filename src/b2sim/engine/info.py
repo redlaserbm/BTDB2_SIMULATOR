@@ -2,6 +2,7 @@
 import csv
 import os
 from copy import deepcopy as dc
+from importlib.resources import files 
 
 # %%
 
@@ -285,8 +286,9 @@ farm_total_cost_values[(0,0,0)] = farm_cost
 
 # %%
 
-dirname = os.path.dirname(__file__)
-filename = os.path.join(dirname, "../templates/eco_send_info.csv")
+# dirname = os.path.dirname(__file__)
+# filename = os.path.join(dirname, "../templates/eco_send_info.csv")
+filename = files("b2sim.templates").joinpath("eco_send_info.csv")
 
 eco_send_info = {}
 
