@@ -94,38 +94,19 @@ class GameState():
         #FARMS & ALT-ECO
         #~~~~~~~~~~~~~~~
         
-        #Process the initial info given about farms/alt-eco:
-        
-        #Info for whether T5 Farms are up or not
-        self.T5_exists = [False, False, False]
-        
-        #First, farms!
+        self.T5_exists = [False, False, False] # Info for whether T5 Farms are up or not
+        self.farms = [] # List of *all* farms ever utilized in the simulation
 
-        # We assume in the initial state dictionary that there is an entry "Farms" consisting of a list of dictionaries.
-        # Note that the structure of self.farms however is not a list, but a dictionary with keys being nonnegative integers
-        # The rationale for doing this is to drastically simplify code related to performing compound transactions.
-
-        self.farms = []
-        farm_info = initial_state.get('Farms')
-        if farm_info is not None:
-            for farm_info_entry in farm_info:
-                self.farms.append(MonkeyFarm(farm_info_entry))
-                
-                #If the farm is a T5 farm, modify our T5 flags appropriately
-                #Do not allow the user to initialize with multiple T5's
-                for i in range(3):
-                    if self.farms[-1].upgrades[i] == 5 and self.T5_exists[i] == False:
-                        self.T5_exists[i] = True
-                    elif self.farms[-1].upgrades[i] == 5 and self.T5_exists[i] == True:
-                        self.logs.append("Warning! The initial state contained multiple T5 farms. Modifying the initial state to prevent this.")
-                        self.warnings.append(len(self.logs)-1)
-                        self.farms[-1].upgrades[i] = 4
+        # We assume in the initial state dictionary that there is an entry 'Farms' consisting of a list of dictionaries.
+        self.initFarms(initial_state.get('Farms'))
 
         #Next, boat farms!
-        boat_info = initial_state.get('Boat Farms')
+        
         self.Tempire_exists = False
         self.boat_farms = {}
         self.boat_key = 0
+
+        boat_info = initial_state.get('Boat Farms')
         if boat_info is not None:
             for boat_entry in boat_info:
                 #If the boat farm is a Tempire, mark it as such appropriately.
@@ -288,6 +269,30 @@ class GameState():
         self.logs.append("The current game time is %s seconds"%(self.current_time))
         self.logs.append("The game round start times are given by %s \n"%(self.rounds.round_starts))
 
+    def initFarms(self, farm_info = None):
+        '''
+        Helper method for __init__ for initializing farms.
+        '''
+        self.farms = []
+        if farm_info is not None:
+            for farm_info_entry in farm_info:
+                self.farms.append(MonkeyFarm(farm_info_entry))
+                
+                #If the farm is a T5 farm, modify our T5 flags appropriately
+                #Do not allow the user to initialize with multiple T5's
+                for i in range(3):
+                    if self.farms[-1].upgrades[i] == 5 and self.T5_exists[i] == False:
+                        self.T5_exists[i] = True
+                    elif self.farms[-1].upgrades[i] == 5 and self.T5_exists[i] == True:
+                        self.logs.append("Warning! The initial state contained multiple T5 farms. Modifying the initial state to prevent this.")
+                        self.warnings.append(len(self.logs)-1)
+                        self.farms[-1].upgrades[i] = 4
+
+    def initBoatFarms(self, boat_info = None):
+        '''
+        Helper method for __init__ for initializing boat farms.
+        '''
+    
     def sortFarms(self, debug = False):
         '''
         Sorts farms by the following criteria:
@@ -380,6 +385,9 @@ class GameState():
         - If the answer is yes, switch to said send, and then rerun the queue correction process so that the *new* first eco send in the queue is valid (if necessary).
         ''' 
 
+        self.logs.append("ecoQueueCorrection called with eco queue: ")
+        self.logs.append(str(self.eco_queue))
+
         # To begin, if necessary, update the list of available eco sends to use.
         if self.last_checked_round is None or self.last_checked_round < self.current_round:
             # If we have yet to form the list of available eco sends...
@@ -444,9 +452,12 @@ class GameState():
                 self.changeEcoSend()
             else:
                 # Add code here which changes to the 0 send if for whatever reason there isn't already a send in the queue
-                if self.eco_cost is None:
-                    self.eco_queue[0] = ecoSend(send_name='Zero')
+                if len(self.eco_queue) < 1 or (self.eco_queue[0]['Time'] is not None and self.eco_queue[0]['Time'] > self.current_time):
+                    self.eco_queue.insert(0,ecoSend(send_name='Zero'))
                     self.changeEcoSend()
+
+                self.logs.append("ecoQueueCorrection returned: ")
+                self.logs.append(str(self.eco_queue))
                 future_flag = True
 
     def changeNow(self):
@@ -503,6 +514,8 @@ class GameState():
 
         send_info = self.eco_queue[0]
         self.eco_queue.pop(0)
+
+        old_send_name = self.send_name
 
         # The send info dictionary looks like this:
         # {
@@ -564,6 +577,7 @@ class GameState():
             eco_gain_multiplier = 2
 
         self.eco_cost = eco_cost_multiplier*eco_send_info[self.send_name]['Price']
+        self.logs.append("The eco cost for the send %s is %s"%(self.send_name, round(self.eco_cost,2)))
         self.eco_gain = eco_gain_multiplier*eco_send_info[self.send_name]['Eco']
         self.eco_time = eco_send_info[self.send_name]['Send Duration']
 
@@ -581,11 +595,13 @@ class GameState():
         self.attack_queue_threshold = send_info['Queue Threshold']
 
         self.logs.append("Modified the eco send to %s"%(self.send_name))
-        self.event_messages.append({
-            'Time': self.current_time, 
-            'Type': "Eco",
-            'Message': "Change eco to %s"%(self.send_name)
-        })
+        
+        if old_send_name != self.send_name:
+            self.event_messages.append({
+                'Time': self.current_time, 
+                'Type': "Eco",
+                'Message': "Change eco to %s"%(self.send_name)
+            })
 
     def showWarnings(self,warnings):
         for index in warnings:
@@ -657,7 +673,7 @@ class GameState():
         #PART 0: FAIL-SAFES
         ###################
 
-        # If the eco queue has the player try to use eco sends when they unavailable, automatically modify the queue so this doesn't happen
+        # If the eco queue has the player try to use eco sends when they are unavailable, automatically modify the queue so this doesn't happen
         self.ecoQueueCorrection()
         
         # FAIL-SAFE: Terminate advanceGameState early if an eco change is scheduled before the target_time.
