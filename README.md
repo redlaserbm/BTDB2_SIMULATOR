@@ -1,48 +1,25 @@
 # Overview
 
-The `b2sim` Python library is an extensive feature-rich library for simulating flowcharts within battles 2. Simulating essential aspects of battles 2's income sources with virtually 100% accuracy, the library is a must-use tool for optimizing eco'ing and farming with any flowchart. Results from the simulator can be used to better inform practical decisions made during games, improving player game sense and leading to more optimal play. The code is relatively easy to use and does not require prior coding experience to effectively operate.
+The `b2sim` Python library is an exhaustive library for the simulation of farming strategies in Bloons TD Battles 2. Simulating essential aspects of battles 2's income sources with virtually 100% accuracy, the library is a must-use tool for optimizing eco'ing and farming with any flowchart. Results from the simulator can be used to better inform practical decisions made during games, improving player game sense and leading to more optimal play. The code is relatively easy to use and does not require prior coding experience to effectively operate.
 
-# Running the Code
+# Installation
 
-Here's a 20 minute video which walks through installing and operating the code:
+Type `pip install b2sim` in the terminal to download.
 
-https://www.youtube.com/watch?v=kvGkgIr-ts8
+# Usage
 
-## For noobs: 
-
-1. Install python on your computer here: https://www.anaconda.com/download/
-2. Open the anaconda prompt and type `pip install b2sim`.
-3. Your installation of anaconda came with a program called "Jupyter Notebook", which allows you to create and edit .ipynb files which you will use to operate the code. Open Jupyter, and create a new .ipynb file wherever you wish on your computer.
-4. In the first cell of this new .ipynb file you've created, type `import b2sim.engine as b2` and hit enter. 
-5. Congratulations, you now have a file which you can use to generate simulations! Check out the tutorial files in this repo (examples folder) for more info on how to operate the library.
-6. (Bonus step) Instead of Jupyter Notebook, I recommend using [Visual Studio Code](https://code.visualstudio.com/) to operate the code. VS Code comes with a number of bells and whistles and QOL features that can speed up the code-writing process.
-
-## For experienced coders:
-1. Type `pip install b2sim` in the terminal to download.
-2. Check out the tutorial files in this repo (tutorials folder) for more info on how to operate the library.
-
-## Alternative installation instructions:
-If for whatever reason pip installation does not work, try the following:
-1. Clone this GitHub repository onto your computer (using a program like GitHub Desktop)
-2. Navigate to where you cloned the repository in the terminal, and then run the command `python3 setup.py install --user`
-
-# Code Features
-
-1. **Simultaneous simulation of eco, farms, and alt-eco:** When given an eco send to use and some arrangement of farms and alt-eco, the simulator accurately tracks the progression of the player's cash and eco over time. The results of the simulator are nearly true to the game.
-2. **Easy operation:** Simply input your initial cash and eco, the round to start on, and the purchases you intend to make and the eco flowchart you intend to follow over the course of the match. The code runs in one click and delivers results in seconds.
-3. **Complete Farm support:** The simulator supports IMF Loans and Monkeyopolis. Also, the simulator supports compound purchases, such as selling into Monkey Wall Street.
-4. **Advanced Optimization Potential:** The code can be used in conjuction with optimization or nonlinear root-finding methods to determine the absolute best times to makes your moves during the game.
+Generally, the simulator supports the following use cases. 
+1. Simultaneous simulation of eco, farms, and alt-eco.
+2. Support for complex farming flowcharts (i.e. simulations in which you potentially buy, sell, or upgrade farms mid-simulation)
+3. Numerical optimization --- Simulations run in $O(1)$ time, meaning that it is feasible to automate experiements with many simulations or optimization methods to determine optimal buy/stopping times.
 
 # Contributing to the Code
 
-Potential contributors are urged to join the [b2 popology discord](https://discord.gg/YBkvcdBN4H) where I can be easily reached with a ping. Look in the "issues" section of this repo for tasks which need to be completed but have not yet been tended to.
+Potential contributors are urged to join the [b2 popology discord](https://discord.gg/YBkvcdBN4H) where I can be easily reached with a ping. Look in the "issues" section of this repo for tasks which need to be completed but have not yet been tended to. 
 
-## First-Time Contributors
+# Feature Requests
 
-If it's your first time ever contributing to the code, follow these steps to made the contribution process easy and hassle-free:
-1. Download [GitHub Desktop](https://desktop.github.com/).
-2. Clone the repository to your desktop.
-3. When you're ready to make changes after working on the code, [create a pull request](https://www.nexmo.com/legacy-blog/2020/10/01/how-to-create-a-pull-request-with-github-desktop).
+The library is robust enough to be used in general applications which may require it. If you need a specific feature from the simulation for your application, please contact me.
 
 # Update Log
 - (Feburary 20, 2024 - v2.0.0)
