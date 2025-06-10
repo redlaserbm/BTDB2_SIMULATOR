@@ -1,0 +1,1753 @@
+MESSAGE FROM GameState.__init__(): 
+Initialized Game State!
+The current game round is 13
+The current game time is 284.762 seconds
+The game round start times are given by [0, 6.0, 29.849999999999998, 52.849999999999994, 76.94999999999999, 106.14999999999999, 133.45, 156.85, 180.35, 201.6, 222.29999999999998, 233.85, 248.4, 266.15, 284.95, 297.05, 313.35, 346.40000000000003, 385.65000000000003, 411.8, 448.15000000000003, 456.95000000000005, 473.50000000000006, 503.75000000000006, 516.3000000000001, 576.7500000000001, 614.4000000000001, 643.1500000000001, 668.3000000000001, 692.5500000000001, 739.3000000000001, 749.1, 803.844, 819.8240000000001, 849.0240000000001, 863.9156600000001, 911.5076600000001, 939.6556600000001, 1028.4906600000002, 1093.8614900000002, 1190.3114900000003, 1202.1114900000002, 1244.2414900000003, 1275.6914900000004, 1303.1414900000004, 1324.1414900000004, 1342.4914900000003, 1383.9414900000004, 1405.3914900000004, 1443.9614900000004, 1480.4114900000004, 1491.3114900000005] 
+
+MESSAGE FROM GameState.fastForward: 
+Advancing game to time 284.812
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+Modified the eco send to Zero
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 284.9
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 285.0
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 285.1
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 285.2
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 285.25
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 285.3
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 285.4
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 285.5
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 285.6
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 285.7
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 285.75
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 285.8
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 285.9
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 286.0
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 286.1
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 286.2
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 286.25
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 286.3
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 286.4
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 286.5
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 286.6
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 286.7
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 286.75
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 286.8
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 286.9
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 287.0
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 287.1
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 287.2
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 287.25
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 287.3
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 287.4
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 287.5
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 287.6
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 287.7
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 287.75
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 287.8
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 287.9
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 288.0
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Awarded eco payment 1000 at time 288
+Recorded cash and eco values (1000,1000) at time 288.0
+Advancing game to time 288.1
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 288.2
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 288.25
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 288.3
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 288.4
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 288.5
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 288.6
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 288.7
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 288.75
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 288.8
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 288.9
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 289.0
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 289.1
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 289.2
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 289.25
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 289.3
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 289.4
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 289.5
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 289.6
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 289.7
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 289.75
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 289.8
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 289.9
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 290.0
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 290.1
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 290.2
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 290.25
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 290.3
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 290.4
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 290.5
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 290.6
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 290.7
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 290.75
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 290.8
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 290.9
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 291.0
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 291.1
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 291.2
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 291.25
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 291.3
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 291.4
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 291.5
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 291.6
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 291.7
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 291.75
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 291.8
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 291.9
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 292.0
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 292.1
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 292.2
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 292.25
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 292.3
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 292.4
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 292.5
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 292.6
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 292.7
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 292.75
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 292.8
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 292.9
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 293.0
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 293.1
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 293.2
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 293.25
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 293.3
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 293.4
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 293.5
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 293.6
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 293.7
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 293.75
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 293.8
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 293.9
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 294.0
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Awarded eco payment 1000 at time 294
+Recorded cash and eco values (2000,1000) at time 294.0
+Advancing game to time 294.1
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 294.2
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 294.25
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 294.3
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 294.4
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 294.5
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 294.6
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 294.7
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 294.75
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 294.8
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 294.9
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 295.0
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 295.1
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 295.2
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 295.25
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 295.3
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 295.4
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 295.5
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 295.6
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 295.7
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 295.75
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 295.8
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 295.9
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 296.0
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 296.1
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 296.2
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 296.25
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 296.3
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 296.4
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 296.5
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 296.6
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 296.7
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 296.75
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 296.8
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 296.9
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 297.0
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Advancing game to time 297.1
+ecoQueueCorrection called with eco queue: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+self.changeNow returned False!
+ecoQueueCorrection returned: 
+[{'Time': 297.05, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
+Modified the eco send to Grouped Yellows
+Advancing game to time 297.1
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 297.05
+Currently, the send queue looks like this: 
+[297.29]
+Recorded cash and eco values (1960.0,1001.6) at time 297.1
+Advancing game to time 297.2
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 297.2
+Currently, the send queue looks like this: 
+[297.29, 297.53000000000003]
+Recorded cash and eco values (1920.0,1003.2) at time 297.2
+Advancing game to time 297.25
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 297.3
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 297.4
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 297.34999999999997
+Currently, the send queue looks like this: 
+[297.53000000000003, 297.77000000000004]
+Recorded cash and eco values (1880.0,1004.8) at time 297.4
+Advancing game to time 297.5
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 297.49999999999994
+Currently, the send queue looks like this: 
+[297.53000000000003, 297.77000000000004, 298.01000000000005]
+Recorded cash and eco values (1840.0,1006.4) at time 297.5
+Advancing game to time 297.6
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 297.7
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 297.6499999999999
+Currently, the send queue looks like this: 
+[297.77000000000004, 298.01000000000005, 298.25000000000006]
+Recorded cash and eco values (1800.0,1008.0) at time 297.7
+Advancing game to time 297.75
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 297.8
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 297.7999999999999
+Currently, the send queue looks like this: 
+[298.01000000000005, 298.25000000000006, 298.49000000000007]
+Recorded cash and eco values (1760.0,1009.6) at time 297.8
+Advancing game to time 297.9
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 298.0
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 297.9499999999999
+Currently, the send queue looks like this: 
+[298.01000000000005, 298.25000000000006, 298.49000000000007, 298.7300000000001]
+Recorded cash and eco values (1720.0,1011.2) at time 298.0
+Advancing game to time 298.1
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 298.09999999999985
+Currently, the send queue looks like this: 
+[298.25000000000006, 298.49000000000007, 298.7300000000001, 298.9700000000001]
+Recorded cash and eco values (1680.0,1012.8) at time 298.1
+Advancing game to time 298.2
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 298.25
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 298.24999999999983
+Currently, the send queue looks like this: 
+[298.25000000000006, 298.49000000000007, 298.7300000000001, 298.9700000000001, 299.2100000000001]
+Recorded cash and eco values (1640.0,1014.4) at time 298.25
+Advancing game to time 298.3
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 298.4
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 298.3999999999998
+Currently, the send queue looks like this: 
+[298.49000000000007, 298.7300000000001, 298.9700000000001, 299.2100000000001, 299.4500000000001]
+Recorded cash and eco values (1600.0,1016.0) at time 298.4
+Advancing game to time 298.5
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 298.6
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 298.5499999999998
+Currently, the send queue looks like this: 
+[298.7300000000001, 298.9700000000001, 299.2100000000001, 299.4500000000001, 299.6900000000001]
+Recorded cash and eco values (1560.0,1017.6) at time 298.6
+Advancing game to time 298.7
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 298.69999999999976
+Currently, the send queue looks like this: 
+[298.7300000000001, 298.9700000000001, 299.2100000000001, 299.4500000000001, 299.6900000000001, 299.9300000000001]
+Recorded cash and eco values (1520.0,1019.2) at time 298.7
+Advancing game to time 298.75
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 298.8
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 298.9
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 298.84999999999974
+Currently, the send queue looks like this: 
+[298.9700000000001, 299.2100000000001, 299.4500000000001, 299.6900000000001, 299.9300000000001, 300.17000000000013]
+Recorded cash and eco values (1480.0,1020.8) at time 298.9
+Advancing game to time 299.0
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 298.9999999999997
+Currently, the send queue looks like this: 
+[299.2100000000001, 299.4500000000001, 299.6900000000001, 299.9300000000001, 300.17000000000013, 300.41000000000014]
+Recorded cash and eco values (1440.0,1022.4) at time 299.0
+Advancing game to time 299.1
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 299.2
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 299.25
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 299.2100000000001
+Currently, the send queue looks like this: 
+[299.4500000000001, 299.6900000000001, 299.9300000000001, 300.17000000000013, 300.41000000000014, 300.65000000000015]
+Recorded cash and eco values (1400.0,1024.0) at time 299.25
+Advancing game to time 299.3
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 299.4
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 299.5
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 299.4500000000001
+Currently, the send queue looks like this: 
+[299.6900000000001, 299.9300000000001, 300.17000000000013, 300.41000000000014, 300.65000000000015, 300.89000000000016]
+Recorded cash and eco values (1360.0,1025.6) at time 299.5
+Advancing game to time 299.6
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 299.7
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 299.6900000000001
+Currently, the send queue looks like this: 
+[299.9300000000001, 300.17000000000013, 300.41000000000014, 300.65000000000015, 300.89000000000016, 301.13000000000017]
+Recorded cash and eco values (1320.0,1027.2) at time 299.7
+Advancing game to time 299.75
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 299.8
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 299.9
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 300.0
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 299.9300000000001
+Currently, the send queue looks like this: 
+[300.17000000000013, 300.41000000000014, 300.65000000000015, 300.89000000000016, 301.13000000000017, 301.3700000000002]
+Awarded eco payment 1028.8 at time 300
+Recorded cash and eco values (2308.8,1028.8) at time 300.0
+Advancing game to time 300.1
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 300.2
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 300.17000000000013
+Currently, the send queue looks like this: 
+[300.41000000000014, 300.65000000000015, 300.89000000000016, 301.13000000000017, 301.3700000000002, 301.6100000000002]
+Recorded cash and eco values (2268.8,1030.4) at time 300.2
+Advancing game to time 300.25
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 300.3
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 300.4
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 300.5
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 300.41000000000014
+Currently, the send queue looks like this: 
+[300.65000000000015, 300.89000000000016, 301.13000000000017, 301.3700000000002, 301.6100000000002, 301.8500000000002]
+Recorded cash and eco values (2228.8,1032.0) at time 300.5
+Advancing game to time 300.6
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 300.7
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 300.65000000000015
+Currently, the send queue looks like this: 
+[300.89000000000016, 301.13000000000017, 301.3700000000002, 301.6100000000002, 301.8500000000002, 302.0900000000002]
+Recorded cash and eco values (2188.8,1033.6) at time 300.7
+Advancing game to time 300.75
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 300.8
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 300.9
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 300.89000000000016
+Currently, the send queue looks like this: 
+[301.13000000000017, 301.3700000000002, 301.6100000000002, 301.8500000000002, 302.0900000000002, 302.3300000000002]
+Recorded cash and eco values (2148.8,1035.2) at time 300.9
+Advancing game to time 301.0
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 301.1
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 301.2
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 301.13000000000017
+Currently, the send queue looks like this: 
+[301.3700000000002, 301.6100000000002, 301.8500000000002, 302.0900000000002, 302.3300000000002, 302.5700000000002]
+Recorded cash and eco values (2108.8,1036.8) at time 301.2
+Advancing game to time 301.25
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 301.3
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 301.4
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 301.3700000000002
+Currently, the send queue looks like this: 
+[301.6100000000002, 301.8500000000002, 302.0900000000002, 302.3300000000002, 302.5700000000002, 302.81000000000023]
+Recorded cash and eco values (2068.8,1038.4) at time 301.4
+Advancing game to time 301.5
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 301.6
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 301.7
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 301.6100000000002
+Currently, the send queue looks like this: 
+[301.8500000000002, 302.0900000000002, 302.3300000000002, 302.5700000000002, 302.81000000000023, 303.05000000000024]
+Recorded cash and eco values (2028.8,1040.0) at time 301.7
+Advancing game to time 301.75
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 301.8
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 301.9
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 301.8500000000002
+Currently, the send queue looks like this: 
+[302.0900000000002, 302.3300000000002, 302.5700000000002, 302.81000000000023, 303.05000000000024, 303.29000000000025]
+Recorded cash and eco values (1988.8,1041.6) at time 301.9
+Advancing game to time 302.0
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 302.1
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 302.0900000000002
+Currently, the send queue looks like this: 
+[302.3300000000002, 302.5700000000002, 302.81000000000023, 303.05000000000024, 303.29000000000025, 303.53000000000026]
+Recorded cash and eco values (1948.8,1043.2) at time 302.1
+Advancing game to time 302.2
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 302.25
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 302.3
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 302.4
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 302.3300000000002
+Currently, the send queue looks like this: 
+[302.5700000000002, 302.81000000000023, 303.05000000000024, 303.29000000000025, 303.53000000000026, 303.77000000000027]
+Recorded cash and eco values (1908.8,1044.8) at time 302.4
+Advancing game to time 302.5
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 302.6
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 302.5700000000002
+Currently, the send queue looks like this: 
+[302.81000000000023, 303.05000000000024, 303.29000000000025, 303.53000000000026, 303.77000000000027, 304.0100000000003]
+Recorded cash and eco values (1868.8,1046.4) at time 302.6
+Advancing game to time 302.7
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 302.75
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 302.8
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 302.9
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 302.81000000000023
+Currently, the send queue looks like this: 
+[303.05000000000024, 303.29000000000025, 303.53000000000026, 303.77000000000027, 304.0100000000003, 304.2500000000003]
+Recorded cash and eco values (1828.8,1048.0) at time 302.9
+Advancing game to time 303.0
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 303.1
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 303.05000000000024
+Currently, the send queue looks like this: 
+[303.29000000000025, 303.53000000000026, 303.77000000000027, 304.0100000000003, 304.2500000000003, 304.4900000000003]
+Recorded cash and eco values (1788.8,1049.6) at time 303.1
+Advancing game to time 303.2
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 303.25
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 303.3
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 303.29000000000025
+Currently, the send queue looks like this: 
+[303.53000000000026, 303.77000000000027, 304.0100000000003, 304.2500000000003, 304.4900000000003, 304.7300000000003]
+Recorded cash and eco values (1748.8,1051.2) at time 303.3
+Advancing game to time 303.4
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 303.5
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 303.6
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 303.53000000000026
+Currently, the send queue looks like this: 
+[303.77000000000027, 304.0100000000003, 304.2500000000003, 304.4900000000003, 304.7300000000003, 304.9700000000003]
+Recorded cash and eco values (1708.8,1052.8) at time 303.6
+Advancing game to time 303.7
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 303.75
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 303.8
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 303.77000000000027
+Currently, the send queue looks like this: 
+[304.0100000000003, 304.2500000000003, 304.4900000000003, 304.7300000000003, 304.9700000000003, 305.2100000000003]
+Recorded cash and eco values (1668.8,1054.4) at time 303.8
+Advancing game to time 303.9
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 304.0
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 304.1
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 304.0100000000003
+Currently, the send queue looks like this: 
+[304.2500000000003, 304.4900000000003, 304.7300000000003, 304.9700000000003, 305.2100000000003, 305.45000000000033]
+Recorded cash and eco values (1628.8,1056.0) at time 304.1
+Advancing game to time 304.2
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 304.25
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 304.3
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 304.2500000000003
+Currently, the send queue looks like this: 
+[304.4900000000003, 304.7300000000003, 304.9700000000003, 305.2100000000003, 305.45000000000033, 305.69000000000034]
+Recorded cash and eco values (1588.8,1057.6) at time 304.3
+Advancing game to time 304.4
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 304.5
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 304.4900000000003
+Currently, the send queue looks like this: 
+[304.7300000000003, 304.9700000000003, 305.2100000000003, 305.45000000000033, 305.69000000000034, 305.93000000000035]
+Recorded cash and eco values (1548.8,1059.2) at time 304.5
+Advancing game to time 304.6
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 304.7
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 304.75
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 304.7300000000003
+Currently, the send queue looks like this: 
+[304.9700000000003, 305.2100000000003, 305.45000000000033, 305.69000000000034, 305.93000000000035, 306.17000000000036]
+Recorded cash and eco values (1508.8,1060.8) at time 304.75
+Advancing game to time 304.8
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 304.9
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 305.0
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 304.9700000000003
+Currently, the send queue looks like this: 
+[305.2100000000003, 305.45000000000033, 305.69000000000034, 305.93000000000035, 306.17000000000036, 306.41000000000037]
+Recorded cash and eco values (1468.8,1062.4) at time 305.0
+Advancing game to time 305.1
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 305.2
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 305.25
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 305.2100000000003
+Currently, the send queue looks like this: 
+[305.45000000000033, 305.69000000000034, 305.93000000000035, 306.17000000000036, 306.41000000000037, 306.6500000000004]
+Recorded cash and eco values (1428.8,1064.0) at time 305.25
+Advancing game to time 305.3
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 305.4
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 305.5
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 305.45000000000033
+Currently, the send queue looks like this: 
+[305.69000000000034, 305.93000000000035, 306.17000000000036, 306.41000000000037, 306.6500000000004, 306.8900000000004]
+Recorded cash and eco values (1388.8,1065.6) at time 305.5
+Advancing game to time 305.6
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 305.7
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 305.69000000000034
+Currently, the send queue looks like this: 
+[305.93000000000035, 306.17000000000036, 306.41000000000037, 306.6500000000004, 306.8900000000004, 307.1300000000004]
+Recorded cash and eco values (1348.8,1067.2) at time 305.7
+Advancing game to time 305.75
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 305.8
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 305.9
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 306.0
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 305.93000000000035
+Currently, the send queue looks like this: 
+[306.17000000000036, 306.41000000000037, 306.6500000000004, 306.8900000000004, 307.1300000000004, 307.3700000000004]
+Awarded eco payment 1068.8 at time 306
+Recorded cash and eco values (2377.6,1068.8) at time 306.0
+Advancing game to time 306.1
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 306.2
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 306.17000000000036
+Currently, the send queue looks like this: 
+[306.41000000000037, 306.6500000000004, 306.8900000000004, 307.1300000000004, 307.3700000000004, 307.6100000000004]
+Recorded cash and eco values (2337.6,1070.4) at time 306.2
+Advancing game to time 306.25
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 306.3
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 306.4
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 306.5
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 306.41000000000037
+Currently, the send queue looks like this: 
+[306.6500000000004, 306.8900000000004, 307.1300000000004, 307.3700000000004, 307.6100000000004, 307.8500000000004]
+Recorded cash and eco values (2297.6,1072.0) at time 306.5
+Advancing game to time 306.6
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 306.7
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 306.6500000000004
+Currently, the send queue looks like this: 
+[306.8900000000004, 307.1300000000004, 307.3700000000004, 307.6100000000004, 307.8500000000004, 308.09000000000043]
+Recorded cash and eco values (2257.6,1073.6) at time 306.7
+Advancing game to time 306.75
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 306.8
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 306.9
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 306.8900000000004
+Currently, the send queue looks like this: 
+[307.1300000000004, 307.3700000000004, 307.6100000000004, 307.8500000000004, 308.09000000000043, 308.33000000000044]
+Recorded cash and eco values (2217.6,1075.2) at time 306.9
+Advancing game to time 307.0
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 307.1
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 307.2
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 307.1300000000004
+Currently, the send queue looks like this: 
+[307.3700000000004, 307.6100000000004, 307.8500000000004, 308.09000000000043, 308.33000000000044, 308.57000000000045]
+Recorded cash and eco values (2177.6,1076.8) at time 307.2
+Advancing game to time 307.3
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 307.4
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 307.3700000000004
+Currently, the send queue looks like this: 
+[307.6100000000004, 307.8500000000004, 308.09000000000043, 308.33000000000044, 308.57000000000045, 308.81000000000046]
+Recorded cash and eco values (2137.6,1078.4) at time 307.4
+Advancing game to time 307.5
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 307.6
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 307.7
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 307.6100000000004
+Currently, the send queue looks like this: 
+[307.8500000000004, 308.09000000000043, 308.33000000000044, 308.57000000000045, 308.81000000000046, 309.05000000000047]
+Recorded cash and eco values (2097.6,1080.0) at time 307.7
+Advancing game to time 307.8
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 307.9
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 307.8500000000004
+Currently, the send queue looks like this: 
+[308.09000000000043, 308.33000000000044, 308.57000000000045, 308.81000000000046, 309.05000000000047, 309.2900000000005]
+Recorded cash and eco values (2057.6,1081.6) at time 307.9
+Advancing game to time 308.0
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 308.1
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 308.09000000000043
+Currently, the send queue looks like this: 
+[308.33000000000044, 308.57000000000045, 308.81000000000046, 309.05000000000047, 309.2900000000005, 309.5300000000005]
+Recorded cash and eco values (2017.6,1083.2) at time 308.1
+Advancing game to time 308.2
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 308.3
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 308.4
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 308.33000000000044
+Currently, the send queue looks like this: 
+[308.57000000000045, 308.81000000000046, 309.05000000000047, 309.2900000000005, 309.5300000000005, 309.7700000000005]
+Recorded cash and eco values (1977.6,1084.8) at time 308.4
+Advancing game to time 308.5
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 308.6
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 308.57000000000045
+Currently, the send queue looks like this: 
+[308.81000000000046, 309.05000000000047, 309.2900000000005, 309.5300000000005, 309.7700000000005, 310.0100000000005]
+Recorded cash and eco values (1937.6,1086.4) at time 308.6
+Advancing game to time 308.7
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 308.8
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 308.9
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 308.81000000000046
+Currently, the send queue looks like this: 
+[309.05000000000047, 309.2900000000005, 309.5300000000005, 309.7700000000005, 310.0100000000005, 310.2500000000005]
+Recorded cash and eco values (1897.6,1088.0) at time 308.9
+Advancing game to time 309.0
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 309.1
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 309.05000000000047
+Currently, the send queue looks like this: 
+[309.2900000000005, 309.5300000000005, 309.7700000000005, 310.0100000000005, 310.2500000000005, 310.4900000000005]
+Recorded cash and eco values (1857.6,1089.6) at time 309.1
+Advancing game to time 309.2
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 309.3
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 309.2900000000005
+Currently, the send queue looks like this: 
+[309.5300000000005, 309.7700000000005, 310.0100000000005, 310.2500000000005, 310.4900000000005, 310.73000000000053]
+Recorded cash and eco values (1817.6,1091.2) at time 309.3
+Advancing game to time 309.4
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 309.5
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 309.6
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 309.5300000000005
+Currently, the send queue looks like this: 
+[309.7700000000005, 310.0100000000005, 310.2500000000005, 310.4900000000005, 310.73000000000053, 310.97000000000054]
+Recorded cash and eco values (1777.6,1092.8) at time 309.6
+Advancing game to time 309.7
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 309.8
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 309.7700000000005
+Currently, the send queue looks like this: 
+[310.0100000000005, 310.2500000000005, 310.4900000000005, 310.73000000000053, 310.97000000000054, 311.21000000000055]
+Recorded cash and eco values (1737.6,1094.4) at time 309.8
+Advancing game to time 309.9
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 310.0
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 310.1
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 310.0100000000005
+Currently, the send queue looks like this: 
+[310.2500000000005, 310.4900000000005, 310.73000000000053, 310.97000000000054, 311.21000000000055, 311.45000000000056]
+Recorded cash and eco values (1697.6,1096.0) at time 310.1
+Advancing game to time 310.2
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 310.3
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 310.2500000000005
+Currently, the send queue looks like this: 
+[310.4900000000005, 310.73000000000053, 310.97000000000054, 311.21000000000055, 311.45000000000056, 311.69000000000057]
+Recorded cash and eco values (1657.6,1097.6) at time 310.3
+Advancing game to time 310.4
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 310.5
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 310.4900000000005
+Currently, the send queue looks like this: 
+[310.73000000000053, 310.97000000000054, 311.21000000000055, 311.45000000000056, 311.69000000000057, 311.9300000000006]
+Recorded cash and eco values (1617.6,1099.2) at time 310.5
+Advancing game to time 310.6
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 310.7
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 310.8
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 310.73000000000053
+Currently, the send queue looks like this: 
+[310.97000000000054, 311.21000000000055, 311.45000000000056, 311.69000000000057, 311.9300000000006, 312.1700000000006]
+Recorded cash and eco values (1577.6,1100.8) at time 310.8
+Advancing game to time 310.9
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 311.0
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 310.97000000000054
+Currently, the send queue looks like this: 
+[311.21000000000055, 311.45000000000056, 311.69000000000057, 311.9300000000006, 312.1700000000006, 312.4100000000006]
+Recorded cash and eco values (1537.6,1102.4) at time 311.0
+Advancing game to time 311.1
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 311.2
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 311.3
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 311.21000000000055
+Currently, the send queue looks like this: 
+[311.45000000000056, 311.69000000000057, 311.9300000000006, 312.1700000000006, 312.4100000000006, 312.6500000000006]
+Recorded cash and eco values (1497.6,1104.0) at time 311.3
+Advancing game to time 311.4
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 311.5
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 311.45000000000056
+Currently, the send queue looks like this: 
+[311.69000000000057, 311.9300000000006, 312.1700000000006, 312.4100000000006, 312.6500000000006, 312.8900000000006]
+Recorded cash and eco values (1457.6,1105.6) at time 311.5
+Advancing game to time 311.6
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 311.7
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 311.69000000000057
+Currently, the send queue looks like this: 
+[311.9300000000006, 312.1700000000006, 312.4100000000006, 312.6500000000006, 312.8900000000006, 313.1300000000006]
+Recorded cash and eco values (1417.6,1107.2) at time 311.7
+Advancing game to time 311.8
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 311.9
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 312.0
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 311.9300000000006
+Currently, the send queue looks like this: 
+[312.1700000000006, 312.4100000000006, 312.6500000000006, 312.8900000000006, 313.1300000000006, 313.37000000000063]
+Awarded eco payment 1108.8 at time 312
+Recorded cash and eco values (2486.4,1108.8) at time 312.0
+Advancing game to time 312.1
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 312.2
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 312.1700000000006
+Currently, the send queue looks like this: 
+[312.4100000000006, 312.6500000000006, 312.8900000000006, 313.1300000000006, 313.37000000000063, 313.61000000000064]
+Recorded cash and eco values (2446.4,1110.4) at time 312.2
+Advancing game to time 312.3
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 312.4
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 312.5
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 312.4100000000006
+Currently, the send queue looks like this: 
+[312.6500000000006, 312.8900000000006, 313.1300000000006, 313.37000000000063, 313.61000000000064, 313.85000000000065]
+Recorded cash and eco values (2406.4,1112.0) at time 312.5
+Advancing game to time 312.6
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 312.7
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 312.6500000000006
+Currently, the send queue looks like this: 
+[312.8900000000006, 313.1300000000006, 313.37000000000063, 313.61000000000064, 313.85000000000065, 314.09000000000066]
+Recorded cash and eco values (2366.4,1113.6) at time 312.7
+Advancing game to time 312.8
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 312.9
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 312.8900000000006
+Currently, the send queue looks like this: 
+[313.1300000000006, 313.37000000000063, 313.61000000000064, 313.85000000000065, 314.09000000000066, 314.33000000000067]
+Recorded cash and eco values (2326.4,1115.2) at time 312.9
+Advancing game to time 313.0
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 313.1
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 313.2
+ecoQueueCorrection called with eco queue: 
+[]
+Sent a set of Grouped Yellows at time 313.1300000000006
+Currently, the send queue looks like this: 
+[313.37000000000063, 313.61000000000064, 313.85000000000065, 314.09000000000066, 314.33000000000067, 314.5700000000007]
+Recorded cash and eco values (2286.4,1116.8) at time 313.2
+Advancing game to time 313.3
+ecoQueueCorrection called with eco queue: 
+[]
+Advancing game to time 313.35
+ecoQueueCorrection called with eco queue: 
+[]
+Advanced game state to round 16
+The current time is 313.35
+The next round starts at time 346.40000000000003
+Our new cash and eco is given by (2286.4,1116.8) 
+

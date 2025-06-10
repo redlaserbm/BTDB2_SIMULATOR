@@ -6,10 +6,17 @@ The game round start times are given by [0, 6.0, 29.849999999999998, 52.84999999
 
 MESSAGE FROM GameState.fastForward: 
 Advancing game to time 284.812
+ecoQueueCorrection called with eco queue: 
+[{'Time': 0, 'Send Name': 'Grouped Yellows', 'Max Send Amount': None, 'Fortified': False, 'Camoflauge': False, 'Regrow': False, 'Max Eco Amount': None, 'Max Send Time': None, 'Queue Threshold': 6}]
 Warning! Time 0 is too early to call Grouped Yellows. Adjusting the queue time to 156.85
+The eco cost for the send Grouped Yellows is 40.0
 Modified the eco send to Grouped Yellows
 Advancing game to time 284.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 285.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 284.95
 Awarded direct payment 50 at time 284.95
 Recorded cash and eco values (100,800) at time 284.95
@@ -18,28 +25,44 @@ Currently, the send queue looks like this:
 [285.21500000000003]
 Recorded cash and eco values (60.0,801.6) at time 285.0
 Advancing game to time 285.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 285.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 285.125
 Currently, the send queue looks like this: 
 [285.21500000000003, 285.45500000000004]
 Recorded cash and eco values (20.0,803.2) at time 285.2
 Advancing game to time 285.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 285.3
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 285.29
 Awarded direct payment 50 at time 285.29
 Recorded cash and eco values (120.0,803.2) at time 285.29
 Advancing game to time 285.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 285.36875
 Currently, the send queue looks like this: 
 [285.45500000000004, 285.69500000000005]
 Recorded cash and eco values (80.0,804.8) at time 285.4
 Advancing game to time 285.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 285.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 285.51874999999995
 Currently, the send queue looks like this: 
 [285.69500000000005, 285.93500000000006]
 Recorded cash and eco values (40.0,806.4) at time 285.6
 Advancing game to time 285.7
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 285.64
 Recorded cash and eco values (90.0,806.4) at time 285.64
 Awarded direct payment 50 at time 285.64
@@ -49,13 +72,21 @@ Currently, the send queue looks like this:
 [285.69500000000005, 285.93500000000006, 286.17500000000007]
 Recorded cash and eco values (100.0,808.0) at time 285.7
 Advancing game to time 285.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 285.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 285.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 285.8187499999999
 Currently, the send queue looks like this: 
 [285.93500000000006, 286.17500000000007, 286.4150000000001]
 Recorded cash and eco values (60.0,809.6) at time 285.9
 Advancing game to time 286.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 285.9687499999999
 Currently, the send queue looks like this: 
 [286.17500000000007, 286.4150000000001, 286.6550000000001]
@@ -64,50 +95,76 @@ Recorded cash and eco values (70.0,811.2) at time 285.98
 Awarded direct payment 50 at time 285.98
 Recorded cash and eco values (120.0,811.2) at time 285.98
 Advancing game to time 286.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 286.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 286.11874999999986
 Currently, the send queue looks like this: 
 [286.17500000000007, 286.4150000000001, 286.6550000000001, 286.8950000000001]
 Recorded cash and eco values (80.0,812.8) at time 286.2
 Advancing game to time 286.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 286.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 286.26874999999984
 Currently, the send queue looks like this: 
 [286.4150000000001, 286.6550000000001, 286.8950000000001, 287.1350000000001]
 Recorded cash and eco values (40.0,814.4) at time 286.3
 Advancing game to time 286.4
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 286.32
 Recorded cash and eco values (90.0,814.4) at time 286.32
 Awarded direct payment 50 at time 286.32
 Recorded cash and eco values (140.0,814.4) at time 286.32
 Advancing game to time 286.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 286.4187499999998
 Currently, the send queue looks like this: 
 [286.6550000000001, 286.8950000000001, 287.1350000000001, 287.3750000000001]
 Recorded cash and eco values (100.0,816.0) at time 286.5
 Advancing game to time 286.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 286.5687499999998
 Currently, the send queue looks like this: 
 [286.6550000000001, 286.8950000000001, 287.1350000000001, 287.3750000000001, 287.6150000000001]
 Recorded cash and eco values (60.0,817.6) at time 286.6
 Advancing game to time 286.7
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 286.67
 Recorded cash and eco values (110.0,817.6) at time 286.67
 Awarded direct payment 50 at time 286.67
 Recorded cash and eco values (160.0,817.6) at time 286.67
 Advancing game to time 286.75
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 286.7187499999998
 Currently, the send queue looks like this: 
 [286.8950000000001, 287.1350000000001, 287.3750000000001, 287.6150000000001, 287.85500000000013]
 Recorded cash and eco values (120.0,819.2) at time 286.75
 Advancing game to time 286.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 286.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 286.86874999999975
 Currently, the send queue looks like this: 
 [286.8950000000001, 287.1350000000001, 287.3750000000001, 287.6150000000001, 287.85500000000013, 288.09500000000014]
 Recorded cash and eco values (80.0,820.8) at time 286.9
 Advancing game to time 287.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 287.1
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 287.01
 Awarded direct payment 50 at time 287.01
 Recorded cash and eco values (180.0,820.8) at time 287.01
@@ -116,13 +173,21 @@ Currently, the send queue looks like this:
 [287.1350000000001, 287.3750000000001, 287.6150000000001, 287.85500000000013, 288.09500000000014, 288.33500000000015]
 Recorded cash and eco values (140.0,822.4) at time 287.1
 Advancing game to time 287.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 287.1687499999997
 Currently, the send queue looks like this: 
 [287.3750000000001, 287.6150000000001, 287.85500000000013, 288.09500000000014, 288.33500000000015, 288.57500000000016]
 Recorded cash and eco values (100.0,824.0) at time 287.2
 Advancing game to time 287.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 287.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 287.4
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 287.36
 Awarded direct payment 50 at time 287.36
 Recorded cash and eco values (200.0,824.0) at time 287.36
@@ -131,8 +196,14 @@ Currently, the send queue looks like this:
 [287.6150000000001, 287.85500000000013, 288.09500000000014, 288.33500000000015, 288.57500000000016, 288.81500000000017]
 Recorded cash and eco values (160.0,825.6) at time 287.4
 Advancing game to time 287.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 287.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 287.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 287.6150000000001
 Currently, the send queue looks like this: 
 [287.85500000000013, 288.09500000000014, 288.33500000000015, 288.57500000000016, 288.81500000000017, 289.0550000000002]
@@ -140,17 +211,27 @@ Awarded direct payment 50 at time 287.7
 Awarded direct payment 50 at time 287.7
 Recorded cash and eco values (220.0,827.2) at time 287.7
 Advancing game to time 287.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 287.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 287.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 287.85500000000013
 Currently, the send queue looks like this: 
 [288.09500000000014, 288.33500000000015, 288.57500000000016, 288.81500000000017, 289.0550000000002, 289.2950000000002]
 Recorded cash and eco values (180.0,828.8) at time 287.9
 Advancing game to time 288.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded eco payment 828.8 at time 288
 Recorded cash and eco values (1008.8,828.8) at time 288
 Recorded cash and eco values (1008.8,828.8) at time 288.0
 Advancing game to time 288.1
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 288.04
 Recorded cash and eco values (1058.8,828.8) at time 288.04
 Awarded direct payment 50 at time 288.04
@@ -160,9 +241,17 @@ Currently, the send queue looks like this:
 [288.33500000000015, 288.57500000000016, 288.81500000000017, 289.0550000000002, 289.2950000000002, 289.5350000000002]
 Recorded cash and eco values (1068.8,830.4) at time 288.1
 Advancing game to time 288.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 288.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 288.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 288.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 288.33500000000015
 Currently, the send queue looks like this: 
 [288.57500000000016, 288.81500000000017, 289.0550000000002, 289.2950000000002, 289.5350000000002, 289.7750000000002]
@@ -170,24 +259,40 @@ Awarded direct payment 50 at time 288.39
 Awarded direct payment 50 at time 288.39
 Recorded cash and eco values (1128.8,832.0) at time 288.39
 Advancing game to time 288.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 288.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 288.57500000000016
 Currently, the send queue looks like this: 
 [288.81500000000017, 289.0550000000002, 289.2950000000002, 289.5350000000002, 289.7750000000002, 290.0150000000002]
 Recorded cash and eco values (1088.8,833.6) at time 288.6
 Advancing game to time 288.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 288.75
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 288.73
 Awarded direct payment 50 at time 288.73
 Recorded cash and eco values (1188.8,833.6) at time 288.73
 Advancing game to time 288.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 288.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 288.81500000000017
 Currently, the send queue looks like this: 
 [289.0550000000002, 289.2950000000002, 289.5350000000002, 289.7750000000002, 290.0150000000002, 290.2550000000002]
 Recorded cash and eco values (1148.8,835.2) at time 288.9
 Advancing game to time 289.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 289.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 289.0550000000002
 Currently, the send queue looks like this: 
 [289.2950000000002, 289.5350000000002, 289.7750000000002, 290.0150000000002, 290.2550000000002, 290.49500000000023]
@@ -195,25 +300,43 @@ Awarded direct payment 50 at time 289.07
 Awarded direct payment 50 at time 289.07
 Recorded cash and eco values (1208.8,836.8) at time 289.07
 Advancing game to time 289.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 289.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 289.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 289.2950000000002
 Currently, the send queue looks like this: 
 [289.5350000000002, 289.7750000000002, 290.0150000000002, 290.2550000000002, 290.49500000000023, 290.73500000000024]
 Recorded cash and eco values (1168.8,838.4) at time 289.3
 Advancing game to time 289.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 289.5
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 289.42
 Awarded direct payment 50 at time 289.42
 Recorded cash and eco values (1268.8,838.4) at time 289.42
 Advancing game to time 289.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 289.5350000000002
 Currently, the send queue looks like this: 
 [289.7750000000002, 290.0150000000002, 290.2550000000002, 290.49500000000023, 290.73500000000024, 290.97500000000025]
 Recorded cash and eco values (1228.8,840.0) at time 289.6
 Advancing game to time 289.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 289.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 289.8
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 289.76
 Awarded direct payment 50 at time 289.76
 Recorded cash and eco values (1328.8,840.0) at time 289.76
@@ -222,238 +345,426 @@ Currently, the send queue looks like this:
 [290.0150000000002, 290.2550000000002, 290.49500000000023, 290.73500000000024, 290.97500000000025, 291.21500000000026]
 Recorded cash and eco values (1288.8,841.6) at time 289.8
 Advancing game to time 289.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 290.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 290.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 290.0150000000002
 Currently, the send queue looks like this: 
 [290.2550000000002, 290.49500000000023, 290.73500000000024, 290.97500000000025, 291.21500000000026, 291.45500000000027]
 Recorded cash and eco values (1248.8,843.2) at time 290.1
 Advancing game to time 290.2
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 290.11
 Recorded cash and eco values (1298.8,843.2) at time 290.11
 Awarded direct payment 50 at time 290.11
 Recorded cash and eco values (1348.8,843.2) at time 290.11
 Advancing game to time 290.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 290.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 290.2550000000002
 Currently, the send queue looks like this: 
 [290.49500000000023, 290.73500000000024, 290.97500000000025, 291.21500000000026, 291.45500000000027, 291.6950000000003]
 Recorded cash and eco values (1308.8,844.8) at time 290.3
 Advancing game to time 290.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 290.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 290.49500000000023
 Currently, the send queue looks like this: 
 [290.73500000000024, 290.97500000000025, 291.21500000000026, 291.45500000000027, 291.6950000000003, 291.9350000000003]
 Recorded cash and eco values (1268.8,846.4) at time 290.5
 Advancing game to time 290.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 290.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 290.75
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 290.73500000000024
 Currently, the send queue looks like this: 
 [290.97500000000025, 291.21500000000026, 291.45500000000027, 291.6950000000003, 291.9350000000003, 292.1750000000003]
 Recorded cash and eco values (1228.8,848.0) at time 290.75
 Advancing game to time 290.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 290.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 291.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 290.97500000000025
 Currently, the send queue looks like this: 
 [291.21500000000026, 291.45500000000027, 291.6950000000003, 291.9350000000003, 292.1750000000003, 292.4150000000003]
 Recorded cash and eco values (1188.8,849.6) at time 291.0
 Advancing game to time 291.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 291.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 291.25
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 291.21500000000026
 Currently, the send queue looks like this: 
 [291.45500000000027, 291.6950000000003, 291.9350000000003, 292.1750000000003, 292.4150000000003, 292.6550000000003]
 Recorded cash and eco values (1148.8,851.2) at time 291.25
 Advancing game to time 291.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 291.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 291.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 291.45500000000027
 Currently, the send queue looks like this: 
 [291.6950000000003, 291.9350000000003, 292.1750000000003, 292.4150000000003, 292.6550000000003, 292.8950000000003]
 Recorded cash and eco values (1108.8,852.8) at time 291.5
 Advancing game to time 291.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 291.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 291.6950000000003
 Currently, the send queue looks like this: 
 [291.9350000000003, 292.1750000000003, 292.4150000000003, 292.6550000000003, 292.8950000000003, 293.13500000000033]
 Recorded cash and eco values (1068.8,854.4) at time 291.7
 Advancing game to time 291.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 291.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 291.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 292.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 291.9350000000003
 Currently, the send queue looks like this: 
 [292.1750000000003, 292.4150000000003, 292.6550000000003, 292.8950000000003, 293.13500000000033, 293.37500000000034]
 Recorded cash and eco values (1028.8,856.0) at time 292.0
 Advancing game to time 292.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 292.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 292.1750000000003
 Currently, the send queue looks like this: 
 [292.4150000000003, 292.6550000000003, 292.8950000000003, 293.13500000000033, 293.37500000000034, 293.61500000000035]
 Recorded cash and eco values (988.8,857.6) at time 292.2
 Advancing game to time 292.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 292.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 292.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 292.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 292.4150000000003
 Currently, the send queue looks like this: 
 [292.6550000000003, 292.8950000000003, 293.13500000000033, 293.37500000000034, 293.61500000000035, 293.85500000000036]
 Recorded cash and eco values (948.8,859.2) at time 292.5
 Advancing game to time 292.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 292.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 292.6550000000003
 Currently, the send queue looks like this: 
 [292.8950000000003, 293.13500000000033, 293.37500000000034, 293.61500000000035, 293.85500000000036, 294.09500000000037]
 Recorded cash and eco values (908.8,860.8) at time 292.7
 Advancing game to time 292.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 292.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 292.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 292.8950000000003
 Currently, the send queue looks like this: 
 [293.13500000000033, 293.37500000000034, 293.61500000000035, 293.85500000000036, 294.09500000000037, 294.3350000000004]
 Recorded cash and eco values (868.8,862.4) at time 292.9
 Advancing game to time 293.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 293.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 293.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 293.13500000000033
 Currently, the send queue looks like this: 
 [293.37500000000034, 293.61500000000035, 293.85500000000036, 294.09500000000037, 294.3350000000004, 294.5750000000004]
 Recorded cash and eco values (828.8,864.0) at time 293.2
 Advancing game to time 293.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 293.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 293.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 293.37500000000034
 Currently, the send queue looks like this: 
 [293.61500000000035, 293.85500000000036, 294.09500000000037, 294.3350000000004, 294.5750000000004, 294.8150000000004]
 Recorded cash and eco values (788.8,865.6) at time 293.4
 Advancing game to time 293.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 293.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 293.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 293.61500000000035
 Currently, the send queue looks like this: 
 [293.85500000000036, 294.09500000000037, 294.3350000000004, 294.5750000000004, 294.8150000000004, 295.0550000000004]
 Recorded cash and eco values (748.8,867.2) at time 293.7
 Advancing game to time 293.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 293.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 293.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 293.85500000000036
 Currently, the send queue looks like this: 
 [294.09500000000037, 294.3350000000004, 294.5750000000004, 294.8150000000004, 295.0550000000004, 295.2950000000004]
 Recorded cash and eco values (708.8,868.8) at time 293.9
 Advancing game to time 294.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded eco payment 868.8 at time 294
 Recorded cash and eco values (1577.6,868.8) at time 294
 Recorded cash and eco values (1577.6,868.8) at time 294.0
 Advancing game to time 294.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 294.09500000000037
 Currently, the send queue looks like this: 
 [294.3350000000004, 294.5750000000004, 294.8150000000004, 295.0550000000004, 295.2950000000004, 295.5350000000004]
 Recorded cash and eco values (1537.6,870.4) at time 294.1
 Advancing game to time 294.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 294.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 294.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 294.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 294.3350000000004
 Currently, the send queue looks like this: 
 [294.5750000000004, 294.8150000000004, 295.0550000000004, 295.2950000000004, 295.5350000000004, 295.77500000000043]
 Recorded cash and eco values (1497.6,872.0) at time 294.4
 Advancing game to time 294.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 294.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 294.5750000000004
 Currently, the send queue looks like this: 
 [294.8150000000004, 295.0550000000004, 295.2950000000004, 295.5350000000004, 295.77500000000043, 296.01500000000044]
 Recorded cash and eco values (1457.6,873.6) at time 294.6
 Advancing game to time 294.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 294.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 294.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 294.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 294.8150000000004
 Currently, the send queue looks like this: 
 [295.0550000000004, 295.2950000000004, 295.5350000000004, 295.77500000000043, 296.01500000000044, 296.25500000000045]
 Recorded cash and eco values (1417.6,875.2) at time 294.9
 Advancing game to time 295.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 295.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 295.0550000000004
 Currently, the send queue looks like this: 
 [295.2950000000004, 295.5350000000004, 295.77500000000043, 296.01500000000044, 296.25500000000045, 296.49500000000046]
 Recorded cash and eco values (1377.6,876.8) at time 295.1
 Advancing game to time 295.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 295.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 295.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 295.2950000000004
 Currently, the send queue looks like this: 
 [295.5350000000004, 295.77500000000043, 296.01500000000044, 296.25500000000045, 296.49500000000046, 296.73500000000047]
 Recorded cash and eco values (1337.6,878.4) at time 295.3
 Advancing game to time 295.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 295.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 295.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 295.5350000000004
 Currently, the send queue looks like this: 
 [295.77500000000043, 296.01500000000044, 296.25500000000045, 296.49500000000046, 296.73500000000047, 296.9750000000005]
 Recorded cash and eco values (1297.6,880.0) at time 295.6
 Advancing game to time 295.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 295.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 295.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 295.77500000000043
 Currently, the send queue looks like this: 
 [296.01500000000044, 296.25500000000045, 296.49500000000046, 296.73500000000047, 296.9750000000005, 297.2150000000005]
 Recorded cash and eco values (1257.6,881.6) at time 295.8
 Advancing game to time 295.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 296.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 296.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 296.01500000000044
 Currently, the send queue looks like this: 
 [296.25500000000045, 296.49500000000046, 296.73500000000047, 296.9750000000005, 297.2150000000005, 297.4550000000005]
 Recorded cash and eco values (1217.6,883.2) at time 296.1
 Advancing game to time 296.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 296.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 296.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 296.25500000000045
 Currently, the send queue looks like this: 
 [296.49500000000046, 296.73500000000047, 296.9750000000005, 297.2150000000005, 297.4550000000005, 297.6950000000005]
 Recorded cash and eco values (1177.6,884.8) at time 296.3
 Advancing game to time 296.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 296.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 296.49500000000046
 Currently, the send queue looks like this: 
 [296.73500000000047, 296.9750000000005, 297.2150000000005, 297.4550000000005, 297.6950000000005, 297.9350000000005]
 Recorded cash and eco values (1137.6,886.4) at time 296.5
 Advancing game to time 296.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 296.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 296.75
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 296.73500000000047
 Currently, the send queue looks like this: 
 [296.9750000000005, 297.2150000000005, 297.4550000000005, 297.6950000000005, 297.9350000000005, 298.1750000000005]
 Recorded cash and eco values (1097.6,888.0) at time 296.75
 Advancing game to time 296.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 296.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 297.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 296.9750000000005
 Currently, the send queue looks like this: 
 [297.2150000000005, 297.4550000000005, 297.6950000000005, 297.9350000000005, 298.1750000000005, 298.41500000000053]
 Recorded cash and eco values (1057.6,889.6) at time 297.0
 Advancing game to time 297.1
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 297.05
 Recorded cash and eco values (1107.6,889.6) at time 297.05
 Awarded direct payment 50 at time 297.05
 Recorded cash and eco values (1157.6,889.6) at time 297.05
 Advancing game to time 297.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 297.25
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 297.2150000000005
 Currently, the send queue looks like this: 
 [297.4550000000005, 297.6950000000005, 297.9350000000005, 298.1750000000005, 298.41500000000053, 298.65500000000054]
 Recorded cash and eco values (1117.6,891.2) at time 297.25
 Advancing game to time 297.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 297.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 297.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 297.4550000000005
 Currently, the send queue looks like this: 
 [297.6950000000005, 297.9350000000005, 298.1750000000005, 298.41500000000053, 298.65500000000054, 298.89500000000055]
 Recorded cash and eco values (1077.6,892.8) at time 297.5
 Advancing game to time 297.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 297.7
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 297.61
 Awarded direct payment 50 at time 297.61
 Recorded cash and eco values (1177.6,892.8) at time 297.61
@@ -462,15 +773,27 @@ Currently, the send queue looks like this:
 [297.9350000000005, 298.1750000000005, 298.41500000000053, 298.65500000000054, 298.89500000000055, 299.13500000000056]
 Recorded cash and eco values (1137.6,894.4) at time 297.7
 Advancing game to time 297.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 297.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 297.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 298.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 297.9350000000005
 Currently, the send queue looks like this: 
 [298.1750000000005, 298.41500000000053, 298.65500000000054, 298.89500000000055, 299.13500000000056, 299.37500000000057]
 Recorded cash and eco values (1097.6,896.0) at time 298.0
 Advancing game to time 298.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 298.2
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 298.18
 Awarded direct payment 50 at time 298.18
 Recorded cash and eco values (1197.6,896.0) at time 298.18
@@ -479,57 +802,99 @@ Currently, the send queue looks like this:
 [298.41500000000053, 298.65500000000054, 298.89500000000055, 299.13500000000056, 299.37500000000057, 299.6150000000006]
 Recorded cash and eco values (1157.6,897.6) at time 298.2
 Advancing game to time 298.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 298.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 298.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 298.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 298.41500000000053
 Currently, the send queue looks like this: 
 [298.65500000000054, 298.89500000000055, 299.13500000000056, 299.37500000000057, 299.6150000000006, 299.8550000000006]
 Recorded cash and eco values (1117.6,899.2) at time 298.5
 Advancing game to time 298.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 298.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 298.65500000000054
 Currently, the send queue looks like this: 
 [298.89500000000055, 299.13500000000056, 299.37500000000057, 299.6150000000006, 299.8550000000006, 300.0950000000006]
 Recorded cash and eco values (1077.6,900.8) at time 298.7
 Advancing game to time 298.75
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 298.74
 Recorded cash and eco values (1127.6,900.8) at time 298.74
 Awarded direct payment 50 at time 298.74
 Recorded cash and eco values (1177.6,900.8) at time 298.74
 Advancing game to time 298.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 298.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 298.89500000000055
 Currently, the send queue looks like this: 
 [299.13500000000056, 299.37500000000057, 299.6150000000006, 299.8550000000006, 300.0950000000006, 300.3350000000006]
 Recorded cash and eco values (1137.6,902.4) at time 298.9
 Advancing game to time 299.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 299.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 299.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 299.13500000000056
 Currently, the send queue looks like this: 
 [299.37500000000057, 299.6150000000006, 299.8550000000006, 300.0950000000006, 300.3350000000006, 300.5750000000006]
 Recorded cash and eco values (1097.6,904.0) at time 299.2
 Advancing game to time 299.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 299.3
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 299.3
 Awarded direct payment 50 at time 299.3
 Recorded cash and eco values (1197.6,904.0) at time 299.3
 Advancing game to time 299.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 299.37500000000057
 Currently, the send queue looks like this: 
 [299.6150000000006, 299.8550000000006, 300.0950000000006, 300.3350000000006, 300.5750000000006, 300.8150000000006]
 Recorded cash and eco values (1157.6,905.6) at time 299.4
 Advancing game to time 299.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 299.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 299.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 299.6150000000006
 Currently, the send queue looks like this: 
 [299.8550000000006, 300.0950000000006, 300.3350000000006, 300.5750000000006, 300.8150000000006, 301.05500000000063]
 Recorded cash and eco values (1117.6,907.2) at time 299.7
 Advancing game to time 299.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 299.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 299.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 299.8550000000006
 Currently, the send queue looks like this: 
 [300.0950000000006, 300.3350000000006, 300.5750000000006, 300.8150000000006, 301.05500000000063, 301.29500000000064]
@@ -537,59 +902,99 @@ Awarded direct payment 50 at time 299.86
 Awarded direct payment 50 at time 299.86
 Recorded cash and eco values (1177.6,908.8) at time 299.86
 Advancing game to time 300.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded eco payment 908.8 at time 300
 Recorded cash and eco values (2086.4,908.8) at time 300.0
 Advancing game to time 300.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 300.0950000000006
 Currently, the send queue looks like this: 
 [300.3350000000006, 300.5750000000006, 300.8150000000006, 301.05500000000063, 301.29500000000064, 301.53500000000065]
 Recorded cash and eco values (2046.4,910.4) at time 300.1
 Advancing game to time 300.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 300.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 300.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 300.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 300.3350000000006
 Currently, the send queue looks like this: 
 [300.5750000000006, 300.8150000000006, 301.05500000000063, 301.29500000000064, 301.53500000000065, 301.77500000000066]
 Recorded cash and eco values (2006.4,912.0) at time 300.4
 Advancing game to time 300.5
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 300.43
 Recorded cash and eco values (2056.4,912.0) at time 300.43
 Awarded direct payment 50 at time 300.43
 Recorded cash and eco values (2106.4,912.0) at time 300.43
 Advancing game to time 300.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 300.5750000000006
 Currently, the send queue looks like this: 
 [300.8150000000006, 301.05500000000063, 301.29500000000064, 301.53500000000065, 301.77500000000066, 302.01500000000067]
 Recorded cash and eco values (2066.4,913.6) at time 300.6
 Advancing game to time 300.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 300.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 300.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 300.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 300.8150000000006
 Currently, the send queue looks like this: 
 [301.05500000000063, 301.29500000000064, 301.53500000000065, 301.77500000000066, 302.01500000000067, 302.2550000000007]
 Recorded cash and eco values (2026.4,915.2) at time 300.9
 Advancing game to time 301.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 300.99
 Recorded cash and eco values (2076.4,915.2) at time 300.99
 Awarded direct payment 50 at time 300.99
 Recorded cash and eco values (2126.4,915.2) at time 300.99
 Advancing game to time 301.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 301.05500000000063
 Currently, the send queue looks like this: 
 [301.29500000000064, 301.53500000000065, 301.77500000000066, 302.01500000000067, 302.2550000000007, 302.4950000000007]
 Recorded cash and eco values (2086.4,916.8) at time 301.1
 Advancing game to time 301.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 301.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 301.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 301.29500000000064
 Currently, the send queue looks like this: 
 [301.53500000000065, 301.77500000000066, 302.01500000000067, 302.2550000000007, 302.4950000000007, 302.7350000000007]
 Recorded cash and eco values (2046.4,918.4) at time 301.3
 Advancing game to time 301.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 301.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 301.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 301.53500000000065
 Currently, the send queue looks like this: 
 [301.77500000000066, 302.01500000000067, 302.2550000000007, 302.4950000000007, 302.7350000000007, 302.9750000000007]
@@ -597,56 +1002,96 @@ Awarded direct payment 50 at time 301.55
 Awarded direct payment 50 at time 301.55
 Recorded cash and eco values (2106.4,920.0) at time 301.55
 Advancing game to time 301.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 301.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 301.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 301.77500000000066
 Currently, the send queue looks like this: 
 [302.01500000000067, 302.2550000000007, 302.4950000000007, 302.7350000000007, 302.9750000000007, 303.2150000000007]
 Recorded cash and eco values (2066.4,921.6) at time 301.8
 Advancing game to time 301.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 302.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 302.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 302.01500000000067
 Currently, the send queue looks like this: 
 [302.2550000000007, 302.4950000000007, 302.7350000000007, 302.9750000000007, 303.2150000000007, 303.4550000000007]
 Recorded cash and eco values (2026.4,923.2) at time 302.1
 Advancing game to time 302.2
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 302.11
 Recorded cash and eco values (2076.4,923.2) at time 302.11
 Awarded direct payment 50 at time 302.11
 Recorded cash and eco values (2126.4,923.2) at time 302.11
 Advancing game to time 302.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 302.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 302.2550000000007
 Currently, the send queue looks like this: 
 [302.4950000000007, 302.7350000000007, 302.9750000000007, 303.2150000000007, 303.4550000000007, 303.69500000000073]
 Recorded cash and eco values (2086.4,924.8) at time 302.3
 Advancing game to time 302.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 302.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 302.4950000000007
 Currently, the send queue looks like this: 
 [302.7350000000007, 302.9750000000007, 303.2150000000007, 303.4550000000007, 303.69500000000073, 303.93500000000074]
 Recorded cash and eco values (2046.4,926.4) at time 302.5
 Advancing game to time 302.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 302.7
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 302.68
 Awarded direct payment 50 at time 302.68
 Recorded cash and eco values (2146.4,926.4) at time 302.68
 Advancing game to time 302.75
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 302.7350000000007
 Currently, the send queue looks like this: 
 [302.9750000000007, 303.2150000000007, 303.4550000000007, 303.69500000000073, 303.93500000000074, 304.17500000000075]
 Recorded cash and eco values (2106.4,928.0) at time 302.75
 Advancing game to time 302.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 302.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 303.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 302.9750000000007
 Currently, the send queue looks like this: 
 [303.2150000000007, 303.4550000000007, 303.69500000000073, 303.93500000000074, 304.17500000000075, 304.41500000000076]
 Recorded cash and eco values (2066.4,929.6) at time 303.0
 Advancing game to time 303.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 303.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 303.25
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 303.2150000000007
 Currently, the send queue looks like this: 
 [303.4550000000007, 303.69500000000073, 303.93500000000074, 304.17500000000075, 304.41500000000076, 304.65500000000077]
@@ -654,496 +1099,848 @@ Awarded direct payment 50 at time 303.24
 Awarded direct payment 50 at time 303.24
 Recorded cash and eco values (2126.4,931.2) at time 303.24
 Advancing game to time 303.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 303.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 303.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 303.4550000000007
 Currently, the send queue looks like this: 
 [303.69500000000073, 303.93500000000074, 304.17500000000075, 304.41500000000076, 304.65500000000077, 304.8950000000008]
 Recorded cash and eco values (2086.4,932.8) at time 303.5
 Advancing game to time 303.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 303.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 303.69500000000073
 Currently, the send queue looks like this: 
 [303.93500000000074, 304.17500000000075, 304.41500000000076, 304.65500000000077, 304.8950000000008, 305.1350000000008]
 Recorded cash and eco values (2046.4,934.4) at time 303.7
 Advancing game to time 303.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 303.8
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 303.8
 Awarded direct payment 50 at time 303.8
 Recorded cash and eco values (2146.4,934.4) at time 303.8
 Advancing game to time 303.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 304.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 303.93500000000074
 Currently, the send queue looks like this: 
 [304.17500000000075, 304.41500000000076, 304.65500000000077, 304.8950000000008, 305.1350000000008, 305.3750000000008]
 Recorded cash and eco values (2106.4,936.0) at time 304.0
 Advancing game to time 304.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 304.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 304.17500000000075
 Currently, the send queue looks like this: 
 [304.41500000000076, 304.65500000000077, 304.8950000000008, 305.1350000000008, 305.3750000000008, 305.6150000000008]
 Recorded cash and eco values (2066.4,937.6) at time 304.2
 Advancing game to time 304.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 304.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 304.4
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 304.36
 Awarded direct payment 50 at time 304.36
 Recorded cash and eco values (2166.4,937.6) at time 304.36
 Advancing game to time 304.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 304.41500000000076
 Currently, the send queue looks like this: 
 [304.65500000000077, 304.8950000000008, 305.1350000000008, 305.3750000000008, 305.6150000000008, 305.8550000000008]
 Recorded cash and eco values (2126.4,939.2) at time 304.5
 Advancing game to time 304.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 304.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 304.65500000000077
 Currently, the send queue looks like this: 
 [304.8950000000008, 305.1350000000008, 305.3750000000008, 305.6150000000008, 305.8550000000008, 306.0950000000008]
 Recorded cash and eco values (2086.4,940.8) at time 304.7
 Advancing game to time 304.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 304.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 304.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 304.8950000000008
 Currently, the send queue looks like this: 
 [305.1350000000008, 305.3750000000008, 305.6150000000008, 305.8550000000008, 306.0950000000008, 306.33500000000083]
 Recorded cash and eco values (2046.4,942.4) at time 304.9
 Advancing game to time 305.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 304.93
 Recorded cash and eco values (2096.4,942.4) at time 304.93
 Awarded direct payment 50 at time 304.93
 Recorded cash and eco values (2146.4,942.4) at time 304.93
 Advancing game to time 305.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 305.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 305.1350000000008
 Currently, the send queue looks like this: 
 [305.3750000000008, 305.6150000000008, 305.8550000000008, 306.0950000000008, 306.33500000000083, 306.57500000000084]
 Recorded cash and eco values (2106.4,944.0) at time 305.2
 Advancing game to time 305.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 305.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 305.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 305.3750000000008
 Currently, the send queue looks like this: 
 [305.6150000000008, 305.8550000000008, 306.0950000000008, 306.33500000000083, 306.57500000000084, 306.81500000000085]
 Recorded cash and eco values (2066.4,945.6) at time 305.4
 Advancing game to time 305.5
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 305.49
 Recorded cash and eco values (2116.4,945.6) at time 305.49
 Awarded direct payment 50 at time 305.49
 Recorded cash and eco values (2166.4,945.6) at time 305.49
 Advancing game to time 305.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 305.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 305.6150000000008
 Currently, the send queue looks like this: 
 [305.8550000000008, 306.0950000000008, 306.33500000000083, 306.57500000000084, 306.81500000000085, 307.05500000000086]
 Recorded cash and eco values (2126.4,947.2) at time 305.7
 Advancing game to time 305.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 305.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 305.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 305.8550000000008
 Currently, the send queue looks like this: 
 [306.0950000000008, 306.33500000000083, 306.57500000000084, 306.81500000000085, 307.05500000000086, 307.29500000000087]
 Recorded cash and eco values (2086.4,948.8) at time 305.9
 Advancing game to time 306.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded eco payment 948.8 at time 306
 Recorded cash and eco values (3035.2,948.8) at time 306
 Recorded cash and eco values (3035.2,948.8) at time 306.0
 Advancing game to time 306.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 306.0950000000008
 Currently, the send queue looks like this: 
 [306.33500000000083, 306.57500000000084, 306.81500000000085, 307.05500000000086, 307.29500000000087, 307.5350000000009]
 Recorded cash and eco values (2995.2,950.4) at time 306.1
 Advancing game to time 306.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 306.25
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 306.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 306.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 306.33500000000083
 Currently, the send queue looks like this: 
 [306.57500000000084, 306.81500000000085, 307.05500000000086, 307.29500000000087, 307.5350000000009, 307.7750000000009]
 Recorded cash and eco values (2955.2,952.0) at time 306.4
 Advancing game to time 306.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 306.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 306.57500000000084
 Currently, the send queue looks like this: 
 [306.81500000000085, 307.05500000000086, 307.29500000000087, 307.5350000000009, 307.7750000000009, 308.0150000000009]
 Recorded cash and eco values (2915.2,953.6) at time 306.6
 Advancing game to time 306.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 306.75
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 306.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 306.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 306.81500000000085
 Currently, the send queue looks like this: 
 [307.05500000000086, 307.29500000000087, 307.5350000000009, 307.7750000000009, 308.0150000000009, 308.2550000000009]
 Recorded cash and eco values (2875.2,955.2) at time 306.9
 Advancing game to time 307.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 307.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 307.05500000000086
 Currently, the send queue looks like this: 
 [307.29500000000087, 307.5350000000009, 307.7750000000009, 308.0150000000009, 308.2550000000009, 308.4950000000009]
 Recorded cash and eco values (2835.2,956.8) at time 307.1
 Advancing game to time 307.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 307.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 307.29500000000087
 Currently, the send queue looks like this: 
 [307.5350000000009, 307.7750000000009, 308.0150000000009, 308.2550000000009, 308.4950000000009, 308.7350000000009]
 Recorded cash and eco values (2795.2,958.4) at time 307.3
 Advancing game to time 307.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 307.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 307.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 307.5350000000009
 Currently, the send queue looks like this: 
 [307.7750000000009, 308.0150000000009, 308.2550000000009, 308.4950000000009, 308.7350000000009, 308.97500000000093]
 Recorded cash and eco values (2755.2,960.0) at time 307.6
 Advancing game to time 307.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 307.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 307.7750000000009
 Currently, the send queue looks like this: 
 [308.0150000000009, 308.2550000000009, 308.4950000000009, 308.7350000000009, 308.97500000000093, 309.21500000000094]
 Recorded cash and eco values (2715.2,961.6) at time 307.8
 Advancing game to time 307.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 308.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 308.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 308.0150000000009
 Currently, the send queue looks like this: 
 [308.2550000000009, 308.4950000000009, 308.7350000000009, 308.97500000000093, 309.21500000000094, 309.45500000000095]
 Recorded cash and eco values (2675.2,963.2) at time 308.1
 Advancing game to time 308.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 308.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 308.2550000000009
 Currently, the send queue looks like this: 
 [308.4950000000009, 308.7350000000009, 308.97500000000093, 309.21500000000094, 309.45500000000095, 309.69500000000096]
 Recorded cash and eco values (2635.2,964.8) at time 308.3
 Advancing game to time 308.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 308.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 308.4950000000009
 Currently, the send queue looks like this: 
 [308.7350000000009, 308.97500000000093, 309.21500000000094, 309.45500000000095, 309.69500000000096, 309.93500000000097]
 Recorded cash and eco values (2595.2,966.4) at time 308.5
 Advancing game to time 308.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 308.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 308.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 308.7350000000009
 Currently, the send queue looks like this: 
 [308.97500000000093, 309.21500000000094, 309.45500000000095, 309.69500000000096, 309.93500000000097, 310.175000000001]
 Recorded cash and eco values (2555.2,968.0) at time 308.8
 Advancing game to time 308.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 309.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 308.97500000000093
 Currently, the send queue looks like this: 
 [309.21500000000094, 309.45500000000095, 309.69500000000096, 309.93500000000097, 310.175000000001, 310.415000000001]
 Recorded cash and eco values (2515.2,969.6) at time 309.0
 Advancing game to time 309.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 309.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 309.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 309.21500000000094
 Currently, the send queue looks like this: 
 [309.45500000000095, 309.69500000000096, 309.93500000000097, 310.175000000001, 310.415000000001, 310.655000000001]
 Recorded cash and eco values (2475.2,971.2) at time 309.3
 Advancing game to time 309.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 309.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 309.45500000000095
 Currently, the send queue looks like this: 
 [309.69500000000096, 309.93500000000097, 310.175000000001, 310.415000000001, 310.655000000001, 310.895000000001]
 Recorded cash and eco values (2435.2,972.8) at time 309.5
 Advancing game to time 309.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 309.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 309.69500000000096
 Currently, the send queue looks like this: 
 [309.93500000000097, 310.175000000001, 310.415000000001, 310.655000000001, 310.895000000001, 311.135000000001]
 Recorded cash and eco values (2395.2,974.4) at time 309.7
 Advancing game to time 309.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 309.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 310.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 309.93500000000097
 Currently, the send queue looks like this: 
 [310.175000000001, 310.415000000001, 310.655000000001, 310.895000000001, 311.135000000001, 311.375000000001]
 Recorded cash and eco values (2355.2,976.0) at time 310.0
 Advancing game to time 310.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 310.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 310.175000000001
 Currently, the send queue looks like this: 
 [310.415000000001, 310.655000000001, 310.895000000001, 311.135000000001, 311.375000000001, 311.61500000000103]
 Recorded cash and eco values (2315.2,977.6) at time 310.2
 Advancing game to time 310.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 310.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 310.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 310.415000000001
 Currently, the send queue looks like this: 
 [310.655000000001, 310.895000000001, 311.135000000001, 311.375000000001, 311.61500000000103, 311.85500000000104]
 Recorded cash and eco values (2275.2,979.2) at time 310.5
 Advancing game to time 310.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 310.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 310.655000000001
 Currently, the send queue looks like this: 
 [310.895000000001, 311.135000000001, 311.375000000001, 311.61500000000103, 311.85500000000104, 312.09500000000105]
 Recorded cash and eco values (2235.2,980.8) at time 310.7
 Advancing game to time 310.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 310.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 310.895000000001
 Currently, the send queue looks like this: 
 [311.135000000001, 311.375000000001, 311.61500000000103, 311.85500000000104, 312.09500000000105, 312.33500000000106]
 Recorded cash and eco values (2195.2,982.4) at time 310.9
 Advancing game to time 311.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 311.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 311.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 311.135000000001
 Currently, the send queue looks like this: 
 [311.375000000001, 311.61500000000103, 311.85500000000104, 312.09500000000105, 312.33500000000106, 312.57500000000107]
 Recorded cash and eco values (2155.2,984.0) at time 311.2
 Advancing game to time 311.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 311.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 311.375000000001
 Currently, the send queue looks like this: 
 [311.61500000000103, 311.85500000000104, 312.09500000000105, 312.33500000000106, 312.57500000000107, 312.8150000000011]
 Recorded cash and eco values (2115.2,985.6) at time 311.4
 Advancing game to time 311.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 311.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 311.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 311.61500000000103
 Currently, the send queue looks like this: 
 [311.85500000000104, 312.09500000000105, 312.33500000000106, 312.57500000000107, 312.8150000000011, 313.0550000000011]
 Recorded cash and eco values (2075.2,987.2) at time 311.7
 Advancing game to time 311.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 311.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 311.85500000000104
 Currently, the send queue looks like this: 
 [312.09500000000105, 312.33500000000106, 312.57500000000107, 312.8150000000011, 313.0550000000011, 313.2950000000011]
 Recorded cash and eco values (2035.2,988.8) at time 311.9
 Advancing game to time 312.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded eco payment 988.8 at time 312
 Recorded cash and eco values (3024.0,988.8) at time 312
 Recorded cash and eco values (3024.0,988.8) at time 312.0
 Advancing game to time 312.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 312.09500000000105
 Currently, the send queue looks like this: 
 [312.33500000000106, 312.57500000000107, 312.8150000000011, 313.0550000000011, 313.2950000000011, 313.5350000000011]
 Recorded cash and eco values (2984.0,990.4) at time 312.1
 Advancing game to time 312.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 312.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 312.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 312.33500000000106
 Currently, the send queue looks like this: 
 [312.57500000000107, 312.8150000000011, 313.0550000000011, 313.2950000000011, 313.5350000000011, 313.7750000000011]
 Recorded cash and eco values (2944.0,992.0) at time 312.4
 Advancing game to time 312.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 312.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 312.57500000000107
 Currently, the send queue looks like this: 
 [312.8150000000011, 313.0550000000011, 313.2950000000011, 313.5350000000011, 313.7750000000011, 314.0150000000011]
 Recorded cash and eco values (2904.0,993.6) at time 312.6
 Advancing game to time 312.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 312.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 312.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 312.8150000000011
 Currently, the send queue looks like this: 
 [313.0550000000011, 313.2950000000011, 313.5350000000011, 313.7750000000011, 314.0150000000011, 314.25500000000113]
 Recorded cash and eco values (2864.0,995.2) at time 312.9
 Advancing game to time 313.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 313.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 313.0550000000011
 Currently, the send queue looks like this: 
 [313.2950000000011, 313.5350000000011, 313.7750000000011, 314.0150000000011, 314.25500000000113, 314.49500000000114]
 Recorded cash and eco values (2824.0,996.8) at time 313.1
 Advancing game to time 313.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 313.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 313.2950000000011
 Currently, the send queue looks like this: 
 [313.5350000000011, 313.7750000000011, 314.0150000000011, 314.25500000000113, 314.49500000000114, 314.73500000000115]
 Recorded cash and eco values (2784.0,998.4) at time 313.3
 Advancing game to time 313.4
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 313.35
 Recorded cash and eco values (2834.0,998.4) at time 313.35
 Awarded direct payment 50 at time 313.35
 Recorded cash and eco values (2884.0,998.4) at time 313.35
 Advancing game to time 313.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 313.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 313.5350000000011
 Currently, the send queue looks like this: 
 [313.7750000000011, 314.0150000000011, 314.25500000000113, 314.49500000000114, 314.73500000000115, 314.97500000000116]
 Recorded cash and eco values (2844.0,1000.0) at time 313.6
 Advancing game to time 313.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 313.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 313.7750000000011
 Currently, the send queue looks like this: 
 [314.0150000000011, 314.25500000000113, 314.49500000000114, 314.73500000000115, 314.97500000000116, 315.21500000000117]
 Recorded cash and eco values (2804.0,1001.6) at time 313.8
 Advancing game to time 313.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 314.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 314.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 314.0150000000011
 Currently, the send queue looks like this: 
 [314.25500000000113, 314.49500000000114, 314.73500000000115, 314.97500000000116, 315.21500000000117, 315.4550000000012]
 Recorded cash and eco values (2764.0,1003.2) at time 314.1
 Advancing game to time 314.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 314.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 314.25500000000113
 Currently, the send queue looks like this: 
 [314.49500000000114, 314.73500000000115, 314.97500000000116, 315.21500000000117, 315.4550000000012, 315.6950000000012]
 Recorded cash and eco values (2724.0,1004.8) at time 314.3
 Advancing game to time 314.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 314.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 314.49500000000114
 Currently, the send queue looks like this: 
 [314.73500000000115, 314.97500000000116, 315.21500000000117, 315.4550000000012, 315.6950000000012, 315.9350000000012]
 Recorded cash and eco values (2684.0,1006.4) at time 314.5
 Advancing game to time 314.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 314.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 314.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 314.73500000000115
 Currently, the send queue looks like this: 
 [314.97500000000116, 315.21500000000117, 315.4550000000012, 315.6950000000012, 315.9350000000012, 316.1750000000012]
 Recorded cash and eco values (2644.0,1008.0) at time 314.8
 Advancing game to time 314.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 315.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 314.97500000000116
 Currently, the send queue looks like this: 
 [315.21500000000117, 315.4550000000012, 315.6950000000012, 315.9350000000012, 316.1750000000012, 316.4150000000012]
 Recorded cash and eco values (2604.0,1009.6) at time 315.0
 Advancing game to time 315.1
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 315.04
 Recorded cash and eco values (2654.0,1009.6) at time 315.04
 Awarded direct payment 50 at time 315.04
 Recorded cash and eco values (2704.0,1009.6) at time 315.04
 Advancing game to time 315.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 315.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 315.21500000000117
 Currently, the send queue looks like this: 
 [315.4550000000012, 315.6950000000012, 315.9350000000012, 316.1750000000012, 316.4150000000012, 316.6550000000012]
 Recorded cash and eco values (2664.0,1011.2) at time 315.3
 Advancing game to time 315.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 315.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 315.4550000000012
 Currently, the send queue looks like this: 
 [315.6950000000012, 315.9350000000012, 316.1750000000012, 316.4150000000012, 316.6550000000012, 316.89500000000123]
 Recorded cash and eco values (2624.0,1012.8) at time 315.5
 Advancing game to time 315.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 315.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 315.6950000000012
 Currently, the send queue looks like this: 
 [315.9350000000012, 316.1750000000012, 316.4150000000012, 316.6550000000012, 316.89500000000123, 317.13500000000124]
 Recorded cash and eco values (2584.0,1014.4) at time 315.7
 Advancing game to time 315.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 315.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 316.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 315.9350000000012
 Currently, the send queue looks like this: 
 [316.1750000000012, 316.4150000000012, 316.6550000000012, 316.89500000000123, 317.13500000000124, 317.37500000000125]
 Recorded cash and eco values (2544.0,1016.0) at time 316.0
 Advancing game to time 316.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 316.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 316.1750000000012
 Currently, the send queue looks like this: 
 [316.4150000000012, 316.6550000000012, 316.89500000000123, 317.13500000000124, 317.37500000000125, 317.61500000000126]
 Recorded cash and eco values (2504.0,1017.6) at time 316.2
 Advancing game to time 316.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 316.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 316.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 316.4150000000012
 Currently, the send queue looks like this: 
 [316.6550000000012, 316.89500000000123, 317.13500000000124, 317.37500000000125, 317.61500000000126, 317.85500000000127]
 Recorded cash and eco values (2464.0,1019.2) at time 316.5
 Advancing game to time 316.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 316.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 316.6550000000012
 Currently, the send queue looks like this: 
 [316.89500000000123, 317.13500000000124, 317.37500000000125, 317.61500000000126, 317.85500000000127, 318.0950000000013]
 Recorded cash and eco values (2424.0,1020.8) at time 316.7
 Advancing game to time 316.8
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 316.73
 Recorded cash and eco values (2474.0,1020.8) at time 316.73
 Awarded direct payment 50 at time 316.73
 Recorded cash and eco values (2524.0,1020.8) at time 316.73
 Advancing game to time 316.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 316.89500000000123
 Currently, the send queue looks like this: 
 [317.13500000000124, 317.37500000000125, 317.61500000000126, 317.85500000000127, 318.0950000000013, 318.3350000000013]
 Recorded cash and eco values (2484.0,1022.4) at time 316.9
 Advancing game to time 317.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 317.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 317.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 317.13500000000124
 Currently, the send queue looks like this: 
 [317.37500000000125, 317.61500000000126, 317.85500000000127, 318.0950000000013, 318.3350000000013, 318.5750000000013]
 Recorded cash and eco values (2444.0,1024.0) at time 317.2
 Advancing game to time 317.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 317.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 317.37500000000125
 Currently, the send queue looks like this: 
 [317.61500000000126, 317.85500000000127, 318.0950000000013, 318.3350000000013, 318.5750000000013, 318.8150000000013]
 Recorded cash and eco values (2404.0,1025.6) at time 317.4
 Advancing game to time 317.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 317.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 317.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 317.61500000000126
 Currently, the send queue looks like this: 
 [317.85500000000127, 318.0950000000013, 318.3350000000013, 318.5750000000013, 318.8150000000013, 319.0550000000013]
 Recorded cash and eco values (2364.0,1027.2) at time 317.7
 Advancing game to time 317.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 317.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 317.85500000000127
 Currently, the send queue looks like this: 
 [318.0950000000013, 318.3350000000013, 318.5750000000013, 318.8150000000013, 319.0550000000013, 319.2950000000013]
 Recorded cash and eco values (2324.0,1028.8) at time 317.9
 Advancing game to time 318.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded eco payment 1028.8 at time 318
 Recorded cash and eco values (3352.8,1028.8) at time 318
 Recorded cash and eco values (3352.8,1028.8) at time 318.0
 Advancing game to time 318.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 318.0950000000013
 Currently, the send queue looks like this: 
 [318.3350000000013, 318.5750000000013, 318.8150000000013, 319.0550000000013, 319.2950000000013, 319.53500000000133]
 Recorded cash and eco values (3312.8,1030.4) at time 318.1
 Advancing game to time 318.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 318.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 318.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 318.3350000000013
 Currently, the send queue looks like this: 
 [318.5750000000013, 318.8150000000013, 319.0550000000013, 319.2950000000013, 319.53500000000133, 319.77500000000134]
 Recorded cash and eco values (3272.8,1032.0) at time 318.4
 Advancing game to time 318.5
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 318.41
 Recorded cash and eco values (3322.8,1032.0) at time 318.41
 Awarded direct payment 50 at time 318.41
 Recorded cash and eco values (3372.8,1032.0) at time 318.41
 Advancing game to time 318.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 318.5750000000013
 Currently, the send queue looks like this: 
 [318.8150000000013, 319.0550000000013, 319.2950000000013, 319.53500000000133, 319.77500000000134, 320.01500000000135]
 Recorded cash and eco values (3332.8,1033.6) at time 318.6
 Advancing game to time 318.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 318.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 318.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 318.8150000000013
 Currently, the send queue looks like this: 
 [319.0550000000013, 319.2950000000013, 319.53500000000133, 319.77500000000134, 320.01500000000135, 320.25500000000136]
 Recorded cash and eco values (3292.8,1035.2) at time 318.9
 Advancing game to time 319.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 319.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 319.0550000000013
 Currently, the send queue looks like this: 
 [319.2950000000013, 319.53500000000133, 319.77500000000134, 320.01500000000135, 320.25500000000136, 320.49500000000137]
 Recorded cash and eco values (3252.8,1036.8) at time 319.1
 Advancing game to time 319.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 319.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 319.2950000000013
 Currently, the send queue looks like this: 
 [319.53500000000133, 319.77500000000134, 320.01500000000135, 320.25500000000136, 320.49500000000137, 320.7350000000014]
 Recorded cash and eco values (3212.8,1038.4) at time 319.3
 Advancing game to time 319.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 319.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 319.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 319.53500000000133
 Currently, the send queue looks like this: 
 [319.77500000000134, 320.01500000000135, 320.25500000000136, 320.49500000000137, 320.7350000000014, 320.9750000000014]
 Recorded cash and eco values (3172.8,1040.0) at time 319.6
 Advancing game to time 319.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 319.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 319.77500000000134
 Currently, the send queue looks like this: 
 [320.01500000000135, 320.25500000000136, 320.49500000000137, 320.7350000000014, 320.9750000000014, 321.2150000000014]
 Recorded cash and eco values (3132.8,1041.6) at time 319.8
 Advancing game to time 319.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 320.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 320.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 320.01500000000135
 Currently, the send queue looks like this: 
 [320.25500000000136, 320.49500000000137, 320.7350000000014, 320.9750000000014, 321.2150000000014, 321.4550000000014]
@@ -1151,758 +1948,1284 @@ Awarded direct payment 50 at time 320.1
 Awarded direct payment 50 at time 320.1
 Recorded cash and eco values (3192.8,1043.2) at time 320.1
 Advancing game to time 320.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 320.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 320.25500000000136
 Currently, the send queue looks like this: 
 [320.49500000000137, 320.7350000000014, 320.9750000000014, 321.2150000000014, 321.4550000000014, 321.6950000000014]
 Recorded cash and eco values (3152.8,1044.8) at time 320.3
 Advancing game to time 320.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 320.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 320.49500000000137
 Currently, the send queue looks like this: 
 [320.7350000000014, 320.9750000000014, 321.2150000000014, 321.4550000000014, 321.6950000000014, 321.9350000000014]
 Recorded cash and eco values (3112.8,1046.4) at time 320.5
 Advancing game to time 320.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 320.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 320.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 320.7350000000014
 Currently, the send queue looks like this: 
 [320.9750000000014, 321.2150000000014, 321.4550000000014, 321.6950000000014, 321.9350000000014, 322.17500000000143]
 Recorded cash and eco values (3072.8,1048.0) at time 320.8
 Advancing game to time 320.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 321.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 320.9750000000014
 Currently, the send queue looks like this: 
 [321.2150000000014, 321.4550000000014, 321.6950000000014, 321.9350000000014, 322.17500000000143, 322.41500000000144]
 Recorded cash and eco values (3032.8,1049.6) at time 321.0
 Advancing game to time 321.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 321.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 321.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 321.2150000000014
 Currently, the send queue looks like this: 
 [321.4550000000014, 321.6950000000014, 321.9350000000014, 322.17500000000143, 322.41500000000144, 322.65500000000145]
 Recorded cash and eco values (2992.8,1051.2) at time 321.3
 Advancing game to time 321.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 321.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 321.4550000000014
 Currently, the send queue looks like this: 
 [321.6950000000014, 321.9350000000014, 322.17500000000143, 322.41500000000144, 322.65500000000145, 322.89500000000146]
 Recorded cash and eco values (2952.8,1052.8) at time 321.5
 Advancing game to time 321.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 321.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 321.6950000000014
 Currently, the send queue looks like this: 
 [321.9350000000014, 322.17500000000143, 322.41500000000144, 322.65500000000145, 322.89500000000146, 323.13500000000147]
 Recorded cash and eco values (2912.8,1054.4) at time 321.7
 Advancing game to time 321.8
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 321.79
 Recorded cash and eco values (2962.8,1054.4) at time 321.79
 Awarded direct payment 50 at time 321.79
 Recorded cash and eco values (3012.8,1054.4) at time 321.79
 Advancing game to time 321.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 322.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 321.9350000000014
 Currently, the send queue looks like this: 
 [322.17500000000143, 322.41500000000144, 322.65500000000145, 322.89500000000146, 323.13500000000147, 323.3750000000015]
 Recorded cash and eco values (2972.8,1056.0) at time 322.0
 Advancing game to time 322.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 322.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 322.17500000000143
 Currently, the send queue looks like this: 
 [322.41500000000144, 322.65500000000145, 322.89500000000146, 323.13500000000147, 323.3750000000015, 323.6150000000015]
 Recorded cash and eco values (2932.8,1057.6) at time 322.2
 Advancing game to time 322.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 322.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 322.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 322.41500000000144
 Currently, the send queue looks like this: 
 [322.65500000000145, 322.89500000000146, 323.13500000000147, 323.3750000000015, 323.6150000000015, 323.8550000000015]
 Recorded cash and eco values (2892.8,1059.2) at time 322.5
 Advancing game to time 322.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 322.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 322.65500000000145
 Currently, the send queue looks like this: 
 [322.89500000000146, 323.13500000000147, 323.3750000000015, 323.6150000000015, 323.8550000000015, 324.0950000000015]
 Recorded cash and eco values (2852.8,1060.8) at time 322.7
 Advancing game to time 322.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 322.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 322.89500000000146
 Currently, the send queue looks like this: 
 [323.13500000000147, 323.3750000000015, 323.6150000000015, 323.8550000000015, 324.0950000000015, 324.3350000000015]
 Recorded cash and eco values (2812.8,1062.4) at time 322.9
 Advancing game to time 323.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 323.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 323.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 323.13500000000147
 Currently, the send queue looks like this: 
 [323.3750000000015, 323.6150000000015, 323.8550000000015, 324.0950000000015, 324.3350000000015, 324.5750000000015]
 Recorded cash and eco values (2772.8,1064.0) at time 323.2
 Advancing game to time 323.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 323.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 323.3750000000015
 Currently, the send queue looks like this: 
 [323.6150000000015, 323.8550000000015, 324.0950000000015, 324.3350000000015, 324.5750000000015, 324.81500000000153]
 Recorded cash and eco values (2732.8,1065.6) at time 323.4
 Advancing game to time 323.5
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 323.48
 Recorded cash and eco values (2782.8,1065.6) at time 323.48
 Awarded direct payment 50 at time 323.48
 Recorded cash and eco values (2832.8,1065.6) at time 323.48
 Advancing game to time 323.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 323.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 323.6150000000015
 Currently, the send queue looks like this: 
 [323.8550000000015, 324.0950000000015, 324.3350000000015, 324.5750000000015, 324.81500000000153, 325.05500000000154]
 Recorded cash and eco values (2792.8,1067.2) at time 323.7
 Advancing game to time 323.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 323.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 323.8550000000015
 Currently, the send queue looks like this: 
 [324.0950000000015, 324.3350000000015, 324.5750000000015, 324.81500000000153, 325.05500000000154, 325.29500000000155]
 Recorded cash and eco values (2752.8,1068.8) at time 323.9
 Advancing game to time 324.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded eco payment 1068.8 at time 324
 Recorded cash and eco values (3821.6,1068.8) at time 324
 Recorded cash and eco values (3821.6,1068.8) at time 324.0
 Advancing game to time 324.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 324.0950000000015
 Currently, the send queue looks like this: 
 [324.3350000000015, 324.5750000000015, 324.81500000000153, 325.05500000000154, 325.29500000000155, 325.53500000000156]
 Recorded cash and eco values (3781.6,1070.4) at time 324.1
 Advancing game to time 324.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 324.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 324.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 324.3350000000015
 Currently, the send queue looks like this: 
 [324.5750000000015, 324.81500000000153, 325.05500000000154, 325.29500000000155, 325.53500000000156, 325.77500000000157]
 Recorded cash and eco values (3741.6,1072.0) at time 324.4
 Advancing game to time 324.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 324.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 324.5750000000015
 Currently, the send queue looks like this: 
 [324.81500000000153, 325.05500000000154, 325.29500000000155, 325.53500000000156, 325.77500000000157, 326.0150000000016]
 Recorded cash and eco values (3701.6,1073.6) at time 324.6
 Advancing game to time 324.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 324.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 324.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 324.81500000000153
 Currently, the send queue looks like this: 
 [325.05500000000154, 325.29500000000155, 325.53500000000156, 325.77500000000157, 326.0150000000016, 326.2550000000016]
 Recorded cash and eco values (3661.6,1075.2) at time 324.9
 Advancing game to time 325.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 325.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 325.05500000000154
 Currently, the send queue looks like this: 
 [325.29500000000155, 325.53500000000156, 325.77500000000157, 326.0150000000016, 326.2550000000016, 326.4950000000016]
 Recorded cash and eco values (3621.6,1076.8) at time 325.1
 Advancing game to time 325.2
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 325.16
 Recorded cash and eco values (3671.6,1076.8) at time 325.16
 Awarded direct payment 50 at time 325.16
 Recorded cash and eco values (3721.6,1076.8) at time 325.16
 Advancing game to time 325.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 325.29500000000155
 Currently, the send queue looks like this: 
 [325.53500000000156, 325.77500000000157, 326.0150000000016, 326.2550000000016, 326.4950000000016, 326.7350000000016]
 Recorded cash and eco values (3681.6,1078.4) at time 325.3
 Advancing game to time 325.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 325.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 325.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 325.53500000000156
 Currently, the send queue looks like this: 
 [325.77500000000157, 326.0150000000016, 326.2550000000016, 326.4950000000016, 326.7350000000016, 326.9750000000016]
 Recorded cash and eco values (3641.6,1080.0) at time 325.6
 Advancing game to time 325.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 325.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 325.77500000000157
 Currently, the send queue looks like this: 
 [326.0150000000016, 326.2550000000016, 326.4950000000016, 326.7350000000016, 326.9750000000016, 327.2150000000016]
 Recorded cash and eco values (3601.6,1081.6) at time 325.8
 Advancing game to time 325.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 326.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 326.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 326.0150000000016
 Currently, the send queue looks like this: 
 [326.2550000000016, 326.4950000000016, 326.7350000000016, 326.9750000000016, 327.2150000000016, 327.45500000000163]
 Recorded cash and eco values (3561.6,1083.2) at time 326.1
 Advancing game to time 326.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 326.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 326.2550000000016
 Currently, the send queue looks like this: 
 [326.4950000000016, 326.7350000000016, 326.9750000000016, 327.2150000000016, 327.45500000000163, 327.69500000000164]
 Recorded cash and eco values (3521.6,1084.8) at time 326.3
 Advancing game to time 326.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 326.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 326.4950000000016
 Currently, the send queue looks like this: 
 [326.7350000000016, 326.9750000000016, 327.2150000000016, 327.45500000000163, 327.69500000000164, 327.93500000000165]
 Recorded cash and eco values (3481.6,1086.4) at time 326.5
 Advancing game to time 326.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 326.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 326.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 326.7350000000016
 Currently, the send queue looks like this: 
 [326.9750000000016, 327.2150000000016, 327.45500000000163, 327.69500000000164, 327.93500000000165, 328.17500000000166]
 Recorded cash and eco values (3441.6,1088.0) at time 326.8
 Advancing game to time 326.9
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 326.85
 Recorded cash and eco values (3491.6,1088.0) at time 326.85
 Awarded direct payment 50 at time 326.85
 Recorded cash and eco values (3541.6,1088.0) at time 326.85
 Advancing game to time 327.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 326.9750000000016
 Currently, the send queue looks like this: 
 [327.2150000000016, 327.45500000000163, 327.69500000000164, 327.93500000000165, 328.17500000000166, 328.41500000000167]
 Recorded cash and eco values (3501.6,1089.6) at time 327.0
 Advancing game to time 327.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 327.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 327.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 327.2150000000016
 Currently, the send queue looks like this: 
 [327.45500000000163, 327.69500000000164, 327.93500000000165, 328.17500000000166, 328.41500000000167, 328.6550000000017]
 Recorded cash and eco values (3461.6,1091.2) at time 327.3
 Advancing game to time 327.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 327.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 327.45500000000163
 Currently, the send queue looks like this: 
 [327.69500000000164, 327.93500000000165, 328.17500000000166, 328.41500000000167, 328.6550000000017, 328.8950000000017]
 Recorded cash and eco values (3421.6,1092.8) at time 327.5
 Advancing game to time 327.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 327.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 327.69500000000164
 Currently, the send queue looks like this: 
 [327.93500000000165, 328.17500000000166, 328.41500000000167, 328.6550000000017, 328.8950000000017, 329.1350000000017]
 Recorded cash and eco values (3381.6,1094.4) at time 327.7
 Advancing game to time 327.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 327.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 328.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 327.93500000000165
 Currently, the send queue looks like this: 
 [328.17500000000166, 328.41500000000167, 328.6550000000017, 328.8950000000017, 329.1350000000017, 329.3750000000017]
 Recorded cash and eco values (3341.6,1096.0) at time 328.0
 Advancing game to time 328.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 328.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 328.17500000000166
 Currently, the send queue looks like this: 
 [328.41500000000167, 328.6550000000017, 328.8950000000017, 329.1350000000017, 329.3750000000017, 329.6150000000017]
 Recorded cash and eco values (3301.6,1097.6) at time 328.2
 Advancing game to time 328.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 328.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 328.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 328.41500000000167
 Currently, the send queue looks like this: 
 [328.6550000000017, 328.8950000000017, 329.1350000000017, 329.3750000000017, 329.6150000000017, 329.8550000000017]
 Recorded cash and eco values (3261.6,1099.2) at time 328.5
 Advancing game to time 328.6
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 328.54
 Recorded cash and eco values (3311.6,1099.2) at time 328.54
 Awarded direct payment 50 at time 328.54
 Recorded cash and eco values (3361.6,1099.2) at time 328.54
 Advancing game to time 328.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 328.6550000000017
 Currently, the send queue looks like this: 
 [328.8950000000017, 329.1350000000017, 329.3750000000017, 329.6150000000017, 329.8550000000017, 330.09500000000173]
 Recorded cash and eco values (3321.6,1100.8) at time 328.7
 Advancing game to time 328.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 328.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 328.8950000000017
 Currently, the send queue looks like this: 
 [329.1350000000017, 329.3750000000017, 329.6150000000017, 329.8550000000017, 330.09500000000173, 330.33500000000174]
 Recorded cash and eco values (3281.6,1102.4) at time 328.9
 Advancing game to time 329.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 329.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 329.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 329.1350000000017
 Currently, the send queue looks like this: 
 [329.3750000000017, 329.6150000000017, 329.8550000000017, 330.09500000000173, 330.33500000000174, 330.57500000000175]
 Recorded cash and eco values (3241.6,1104.0) at time 329.2
 Advancing game to time 329.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 329.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 329.3750000000017
 Currently, the send queue looks like this: 
 [329.6150000000017, 329.8550000000017, 330.09500000000173, 330.33500000000174, 330.57500000000175, 330.81500000000176]
 Recorded cash and eco values (3201.6,1105.6) at time 329.4
 Advancing game to time 329.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 329.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 329.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 329.6150000000017
 Currently, the send queue looks like this: 
 [329.8550000000017, 330.09500000000173, 330.33500000000174, 330.57500000000175, 330.81500000000176, 331.05500000000177]
 Recorded cash and eco values (3161.6,1107.2) at time 329.7
 Advancing game to time 329.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 329.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 329.8550000000017
 Currently, the send queue looks like this: 
 [330.09500000000173, 330.33500000000174, 330.57500000000175, 330.81500000000176, 331.05500000000177, 331.2950000000018]
 Recorded cash and eco values (3121.6,1108.8) at time 329.9
 Advancing game to time 330.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded eco payment 1108.8 at time 330
 Recorded cash and eco values (4230.4,1108.8) at time 330
 Recorded cash and eco values (4230.4,1108.8) at time 330.0
 Advancing game to time 330.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 330.09500000000173
 Currently, the send queue looks like this: 
 [330.33500000000174, 330.57500000000175, 330.81500000000176, 331.05500000000177, 331.2950000000018, 331.5350000000018]
 Recorded cash and eco values (4190.4,1110.4) at time 330.1
 Advancing game to time 330.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 330.3
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 330.23
 Awarded direct payment 50 at time 330.23
 Recorded cash and eco values (4290.4,1110.4) at time 330.23
 Advancing game to time 330.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 330.33500000000174
 Currently, the send queue looks like this: 
 [330.57500000000175, 330.81500000000176, 331.05500000000177, 331.2950000000018, 331.5350000000018, 331.7750000000018]
 Recorded cash and eco values (4250.4,1112.0) at time 330.4
 Advancing game to time 330.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 330.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 330.57500000000175
 Currently, the send queue looks like this: 
 [330.81500000000176, 331.05500000000177, 331.2950000000018, 331.5350000000018, 331.7750000000018, 332.0150000000018]
 Recorded cash and eco values (4210.4,1113.6) at time 330.6
 Advancing game to time 330.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 330.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 330.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 330.81500000000176
 Currently, the send queue looks like this: 
 [331.05500000000177, 331.2950000000018, 331.5350000000018, 331.7750000000018, 332.0150000000018, 332.2550000000018]
 Recorded cash and eco values (4170.4,1115.2) at time 330.9
 Advancing game to time 331.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 331.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 331.05500000000177
 Currently, the send queue looks like this: 
 [331.2950000000018, 331.5350000000018, 331.7750000000018, 332.0150000000018, 332.2550000000018, 332.4950000000018]
 Recorded cash and eco values (4130.4,1116.8) at time 331.1
 Advancing game to time 331.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 331.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 331.2950000000018
 Currently, the send queue looks like this: 
 [331.5350000000018, 331.7750000000018, 332.0150000000018, 332.2550000000018, 332.4950000000018, 332.73500000000183]
 Recorded cash and eco values (4090.4,1118.4) at time 331.3
 Advancing game to time 331.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 331.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 331.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 331.5350000000018
 Currently, the send queue looks like this: 
 [331.7750000000018, 332.0150000000018, 332.2550000000018, 332.4950000000018, 332.73500000000183, 332.97500000000184]
 Recorded cash and eco values (4050.4,1120.0) at time 331.6
 Advancing game to time 331.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 331.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 331.7750000000018
 Currently, the send queue looks like this: 
 [332.0150000000018, 332.2550000000018, 332.4950000000018, 332.73500000000183, 332.97500000000184, 333.21500000000185]
 Recorded cash and eco values (4010.4,1121.6) at time 331.8
 Advancing game to time 331.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 332.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 331.91
 Awarded direct payment 50 at time 331.91
 Recorded cash and eco values (4110.4,1121.6) at time 331.91
 Advancing game to time 332.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 332.0150000000018
 Currently, the send queue looks like this: 
 [332.2550000000018, 332.4950000000018, 332.73500000000183, 332.97500000000184, 333.21500000000185, 333.45500000000186]
 Recorded cash and eco values (4070.4,1123.2) at time 332.1
 Advancing game to time 332.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 332.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 332.2550000000018
 Currently, the send queue looks like this: 
 [332.4950000000018, 332.73500000000183, 332.97500000000184, 333.21500000000185, 333.45500000000186, 333.69500000000187]
 Recorded cash and eco values (4030.4,1124.8) at time 332.3
 Advancing game to time 332.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 332.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 332.4950000000018
 Currently, the send queue looks like this: 
 [332.73500000000183, 332.97500000000184, 333.21500000000185, 333.45500000000186, 333.69500000000187, 333.9350000000019]
 Recorded cash and eco values (3990.4,1126.4) at time 332.5
 Advancing game to time 332.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 332.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 332.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 332.73500000000183
 Currently, the send queue looks like this: 
 [332.97500000000184, 333.21500000000185, 333.45500000000186, 333.69500000000187, 333.9350000000019, 334.1750000000019]
 Recorded cash and eco values (3950.4,1128.0) at time 332.8
 Advancing game to time 332.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 333.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 332.97500000000184
 Currently, the send queue looks like this: 
 [333.21500000000185, 333.45500000000186, 333.69500000000187, 333.9350000000019, 334.1750000000019, 334.4150000000019]
 Recorded cash and eco values (3910.4,1129.6) at time 333.0
 Advancing game to time 333.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 333.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 333.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 333.21500000000185
 Currently, the send queue looks like this: 
 [333.45500000000186, 333.69500000000187, 333.9350000000019, 334.1750000000019, 334.4150000000019, 334.6550000000019]
 Recorded cash and eco values (3870.4,1131.2) at time 333.3
 Advancing game to time 333.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 333.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 333.45500000000186
 Currently, the send queue looks like this: 
 [333.69500000000187, 333.9350000000019, 334.1750000000019, 334.4150000000019, 334.6550000000019, 334.8950000000019]
 Recorded cash and eco values (3830.4,1132.8) at time 333.5
 Advancing game to time 333.6
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 333.6
 Recorded cash and eco values (3880.4,1132.8) at time 333.6
 Awarded direct payment 50 at time 333.6
 Recorded cash and eco values (3930.4,1132.8) at time 333.6
 Recorded cash and eco values (3930.4,1132.8) at time 333.6
 Advancing game to time 333.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 333.69500000000187
 Currently, the send queue looks like this: 
 [333.9350000000019, 334.1750000000019, 334.4150000000019, 334.6550000000019, 334.8950000000019, 335.1350000000019]
 Recorded cash and eco values (3890.4,1134.4) at time 333.7
 Advancing game to time 333.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 333.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 334.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 333.9350000000019
 Currently, the send queue looks like this: 
 [334.1750000000019, 334.4150000000019, 334.6550000000019, 334.8950000000019, 335.1350000000019, 335.37500000000193]
 Recorded cash and eco values (3850.4,1136.0) at time 334.0
 Advancing game to time 334.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 334.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 334.1750000000019
 Currently, the send queue looks like this: 
 [334.4150000000019, 334.6550000000019, 334.8950000000019, 335.1350000000019, 335.37500000000193, 335.61500000000194]
 Recorded cash and eco values (3810.4,1137.6) at time 334.2
 Advancing game to time 334.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 334.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 334.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 334.4150000000019
 Currently, the send queue looks like this: 
 [334.6550000000019, 334.8950000000019, 335.1350000000019, 335.37500000000193, 335.61500000000194, 335.85500000000195]
 Recorded cash and eco values (3770.4,1139.2) at time 334.5
 Advancing game to time 334.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 334.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 334.6550000000019
 Currently, the send queue looks like this: 
 [334.8950000000019, 335.1350000000019, 335.37500000000193, 335.61500000000194, 335.85500000000195, 336.09500000000196]
 Recorded cash and eco values (3730.4,1140.8) at time 334.7
 Advancing game to time 334.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 334.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 334.8950000000019
 Currently, the send queue looks like this: 
 [335.1350000000019, 335.37500000000193, 335.61500000000194, 335.85500000000195, 336.09500000000196, 336.33500000000197]
 Recorded cash and eco values (3690.4,1142.4) at time 334.9
 Advancing game to time 335.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 335.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 335.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 335.1350000000019
 Currently, the send queue looks like this: 
 [335.37500000000193, 335.61500000000194, 335.85500000000195, 336.09500000000196, 336.33500000000197, 336.575000000002]
 Recorded cash and eco values (3650.4,1144.0) at time 335.2
 Advancing game to time 335.3
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 335.29
 Recorded cash and eco values (3700.4,1144.0) at time 335.29
 Awarded direct payment 50 at time 335.29
 Recorded cash and eco values (3750.4,1144.0) at time 335.29
 Advancing game to time 335.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 335.37500000000193
 Currently, the send queue looks like this: 
 [335.61500000000194, 335.85500000000195, 336.09500000000196, 336.33500000000197, 336.575000000002, 336.815000000002]
 Recorded cash and eco values (3710.4,1145.6) at time 335.4
 Advancing game to time 335.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 335.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 335.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 335.61500000000194
 Currently, the send queue looks like this: 
 [335.85500000000195, 336.09500000000196, 336.33500000000197, 336.575000000002, 336.815000000002, 337.055000000002]
 Recorded cash and eco values (3670.4,1147.2) at time 335.7
 Advancing game to time 335.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 335.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 335.85500000000195
 Currently, the send queue looks like this: 
 [336.09500000000196, 336.33500000000197, 336.575000000002, 336.815000000002, 337.055000000002, 337.295000000002]
 Recorded cash and eco values (3630.4,1148.8) at time 335.9
 Advancing game to time 336.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded eco payment 1148.8 at time 336
 Recorded cash and eco values (4779.2,1148.8) at time 336
 Recorded cash and eco values (4779.2,1148.8) at time 336.0
 Advancing game to time 336.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 336.09500000000196
 Currently, the send queue looks like this: 
 [336.33500000000197, 336.575000000002, 336.815000000002, 337.055000000002, 337.295000000002, 337.535000000002]
 Recorded cash and eco values (4739.2,1150.4) at time 336.1
 Advancing game to time 336.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 336.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 336.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 336.33500000000197
 Currently, the send queue looks like this: 
 [336.575000000002, 336.815000000002, 337.055000000002, 337.295000000002, 337.535000000002, 337.775000000002]
 Recorded cash and eco values (4699.2,1152.0) at time 336.4
 Advancing game to time 336.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 336.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 336.575000000002
 Currently, the send queue looks like this: 
 [336.815000000002, 337.055000000002, 337.295000000002, 337.535000000002, 337.775000000002, 338.01500000000203]
 Recorded cash and eco values (4659.2,1153.6) at time 336.6
 Advancing game to time 336.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 336.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 336.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 336.815000000002
 Currently, the send queue looks like this: 
 [337.055000000002, 337.295000000002, 337.535000000002, 337.775000000002, 338.01500000000203, 338.25500000000204]
 Recorded cash and eco values (4619.2,1155.2) at time 336.9
 Advancing game to time 337.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 336.98
 Recorded cash and eco values (4669.2,1155.2) at time 336.98
 Awarded direct payment 50 at time 336.98
 Recorded cash and eco values (4719.2,1155.2) at time 336.98
 Advancing game to time 337.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 337.055000000002
 Currently, the send queue looks like this: 
 [337.295000000002, 337.535000000002, 337.775000000002, 338.01500000000203, 338.25500000000204, 338.49500000000205]
 Recorded cash and eco values (4679.2,1156.8) at time 337.1
 Advancing game to time 337.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 337.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 337.295000000002
 Currently, the send queue looks like this: 
 [337.535000000002, 337.775000000002, 338.01500000000203, 338.25500000000204, 338.49500000000205, 338.73500000000206]
 Recorded cash and eco values (4639.2,1158.4) at time 337.3
 Advancing game to time 337.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 337.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 337.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 337.535000000002
 Currently, the send queue looks like this: 
 [337.775000000002, 338.01500000000203, 338.25500000000204, 338.49500000000205, 338.73500000000206, 338.97500000000207]
 Recorded cash and eco values (4599.2,1160.0) at time 337.6
 Advancing game to time 337.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 337.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 337.775000000002
 Currently, the send queue looks like this: 
 [338.01500000000203, 338.25500000000204, 338.49500000000205, 338.73500000000206, 338.97500000000207, 339.2150000000021]
 Recorded cash and eco values (4559.2,1161.6) at time 337.8
 Advancing game to time 337.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 338.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 338.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 338.01500000000203
 Currently, the send queue looks like this: 
 [338.25500000000204, 338.49500000000205, 338.73500000000206, 338.97500000000207, 339.2150000000021, 339.4550000000021]
 Recorded cash and eco values (4519.2,1163.2) at time 338.1
 Advancing game to time 338.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 338.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 338.25500000000204
 Currently, the send queue looks like this: 
 [338.49500000000205, 338.73500000000206, 338.97500000000207, 339.2150000000021, 339.4550000000021, 339.6950000000021]
 Recorded cash and eco values (4479.2,1164.8) at time 338.3
 Advancing game to time 338.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 338.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 338.49500000000205
 Currently, the send queue looks like this: 
 [338.73500000000206, 338.97500000000207, 339.2150000000021, 339.4550000000021, 339.6950000000021, 339.9350000000021]
 Recorded cash and eco values (4439.2,1166.4) at time 338.5
 Advancing game to time 338.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 338.7
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 338.66
 Awarded direct payment 50 at time 338.66
 Recorded cash and eco values (4539.2,1166.4) at time 338.66
 Advancing game to time 338.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 338.73500000000206
 Currently, the send queue looks like this: 
 [338.97500000000207, 339.2150000000021, 339.4550000000021, 339.6950000000021, 339.9350000000021, 340.1750000000021]
 Recorded cash and eco values (4499.2,1168.0) at time 338.8
 Advancing game to time 338.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 339.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 338.97500000000207
 Currently, the send queue looks like this: 
 [339.2150000000021, 339.4550000000021, 339.6950000000021, 339.9350000000021, 340.1750000000021, 340.4150000000021]
 Recorded cash and eco values (4459.2,1169.6) at time 339.0
 Advancing game to time 339.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 339.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 339.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 339.2150000000021
 Currently, the send queue looks like this: 
 [339.4550000000021, 339.6950000000021, 339.9350000000021, 340.1750000000021, 340.4150000000021, 340.65500000000213]
 Recorded cash and eco values (4419.2,1171.2) at time 339.3
 Advancing game to time 339.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 339.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 339.4550000000021
 Currently, the send queue looks like this: 
 [339.6950000000021, 339.9350000000021, 340.1750000000021, 340.4150000000021, 340.65500000000213, 340.89500000000214]
 Recorded cash and eco values (4379.2,1172.8) at time 339.5
 Advancing game to time 339.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 339.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 339.6950000000021
 Currently, the send queue looks like this: 
 [339.9350000000021, 340.1750000000021, 340.4150000000021, 340.65500000000213, 340.89500000000214, 341.13500000000215]
 Recorded cash and eco values (4339.2,1174.4) at time 339.7
 Advancing game to time 339.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 339.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 340.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 339.9350000000021
 Currently, the send queue looks like this: 
 [340.1750000000021, 340.4150000000021, 340.65500000000213, 340.89500000000214, 341.13500000000215, 341.37500000000216]
 Recorded cash and eco values (4299.2,1176.0) at time 340.0
 Advancing game to time 340.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 340.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 340.1750000000021
 Currently, the send queue looks like this: 
 [340.4150000000021, 340.65500000000213, 340.89500000000214, 341.13500000000215, 341.37500000000216, 341.61500000000217]
 Recorded cash and eco values (4259.2,1177.6) at time 340.2
 Advancing game to time 340.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 340.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 340.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 340.4150000000021
 Currently, the send queue looks like this: 
 [340.65500000000213, 340.89500000000214, 341.13500000000215, 341.37500000000216, 341.61500000000217, 341.8550000000022]
 Recorded cash and eco values (4219.2,1179.2) at time 340.5
 Advancing game to time 340.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 340.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 340.65500000000213
 Currently, the send queue looks like this: 
 [340.89500000000214, 341.13500000000215, 341.37500000000216, 341.61500000000217, 341.8550000000022, 342.0950000000022]
 Recorded cash and eco values (4179.2,1180.8) at time 340.7
 Advancing game to time 340.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 340.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 340.89500000000214
 Currently, the send queue looks like this: 
 [341.13500000000215, 341.37500000000216, 341.61500000000217, 341.8550000000022, 342.0950000000022, 342.3350000000022]
 Recorded cash and eco values (4139.2,1182.4) at time 340.9
 Advancing game to time 341.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 341.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 341.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 341.13500000000215
 Currently, the send queue looks like this: 
 [341.37500000000216, 341.61500000000217, 341.8550000000022, 342.0950000000022, 342.3350000000022, 342.5750000000022]
 Recorded cash and eco values (4099.2,1184.0) at time 341.2
 Advancing game to time 341.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 341.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 341.37500000000216
 Currently, the send queue looks like this: 
 [341.61500000000217, 341.8550000000022, 342.0950000000022, 342.3350000000022, 342.5750000000022, 342.8150000000022]
 Recorded cash and eco values (4059.2,1185.6) at time 341.4
 Advancing game to time 341.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 341.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 341.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 341.61500000000217
 Currently, the send queue looks like this: 
 [341.8550000000022, 342.0950000000022, 342.3350000000022, 342.5750000000022, 342.8150000000022, 343.0550000000022]
 Recorded cash and eco values (4019.2,1187.2) at time 341.7
 Advancing game to time 341.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 341.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 341.8550000000022
 Currently, the send queue looks like this: 
 [342.0950000000022, 342.3350000000022, 342.5750000000022, 342.8150000000022, 343.0550000000022, 343.29500000000223]
 Recorded cash and eco values (3979.2,1188.8) at time 341.9
 Advancing game to time 342.0
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded eco payment 1188.8 at time 342
 Recorded cash and eco values (5168.0,1188.8) at time 342
 Recorded cash and eco values (5168.0,1188.8) at time 342.0
 Advancing game to time 342.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 342.0950000000022
 Currently, the send queue looks like this: 
 [342.3350000000022, 342.5750000000022, 342.8150000000022, 343.0550000000022, 343.29500000000223, 343.53500000000224]
 Recorded cash and eco values (5128.0,1190.4) at time 342.1
 Advancing game to time 342.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 342.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 342.4
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 342.3350000000022
 Currently, the send queue looks like this: 
 [342.5750000000022, 342.8150000000022, 343.0550000000022, 343.29500000000223, 343.53500000000224, 343.77500000000225]
 Recorded cash and eco values (5088.0,1192.0) at time 342.4
 Advancing game to time 342.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 342.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 342.5750000000022
 Currently, the send queue looks like this: 
 [342.8150000000022, 343.0550000000022, 343.29500000000223, 343.53500000000224, 343.77500000000225, 344.01500000000226]
 Recorded cash and eco values (5048.0,1193.6) at time 342.6
 Advancing game to time 342.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 342.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 342.9
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 342.8150000000022
 Currently, the send queue looks like this: 
 [343.0550000000022, 343.29500000000223, 343.53500000000224, 343.77500000000225, 344.01500000000226, 344.25500000000227]
 Recorded cash and eco values (5008.0,1195.2) at time 342.9
 Advancing game to time 343.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 343.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 343.0550000000022
 Currently, the send queue looks like this: 
 [343.29500000000223, 343.53500000000224, 343.77500000000225, 344.01500000000226, 344.25500000000227, 344.4950000000023]
 Recorded cash and eco values (4968.0,1196.8) at time 343.1
 Advancing game to time 343.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 343.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 343.29500000000223
 Currently, the send queue looks like this: 
 [343.53500000000224, 343.77500000000225, 344.01500000000226, 344.25500000000227, 344.4950000000023, 344.7350000000023]
 Recorded cash and eco values (4928.0,1198.4) at time 343.3
 Advancing game to time 343.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 343.5
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 343.6
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 343.53500000000224
 Currently, the send queue looks like this: 
 [343.77500000000225, 344.01500000000226, 344.25500000000227, 344.4950000000023, 344.7350000000023, 344.9750000000023]
 Recorded cash and eco values (4888.0,1200.0) at time 343.6
 Advancing game to time 343.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 343.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 343.77500000000225
 Currently, the send queue looks like this: 
 [344.01500000000226, 344.25500000000227, 344.4950000000023, 344.7350000000023, 344.9750000000023, 345.2150000000023]
 Recorded cash and eco values (4848.0,1201.6) at time 343.8
 Advancing game to time 343.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 344.0
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 344.1
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 344.01500000000226
 Currently, the send queue looks like this: 
 [344.25500000000227, 344.4950000000023, 344.7350000000023, 344.9750000000023, 345.2150000000023, 345.4550000000023]
 Recorded cash and eco values (4808.0,1203.2) at time 344.1
 Advancing game to time 344.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 344.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 344.25500000000227
 Currently, the send queue looks like this: 
 [344.4950000000023, 344.7350000000023, 344.9750000000023, 345.2150000000023, 345.4550000000023, 345.6950000000023]
 Recorded cash and eco values (4768.0,1204.8) at time 344.3
 Advancing game to time 344.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 344.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 344.4950000000023
 Currently, the send queue looks like this: 
 [344.7350000000023, 344.9750000000023, 345.2150000000023, 345.4550000000023, 345.6950000000023, 345.93500000000233]
 Recorded cash and eco values (4728.0,1206.4) at time 344.5
 Advancing game to time 344.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 344.7
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 344.8
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 344.7350000000023
 Currently, the send queue looks like this: 
 [344.9750000000023, 345.2150000000023, 345.4550000000023, 345.6950000000023, 345.93500000000233, 346.17500000000234]
 Recorded cash and eco values (4688.0,1208.0) at time 344.8
 Advancing game to time 344.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 345.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 344.9750000000023
 Currently, the send queue looks like this: 
 [345.2150000000023, 345.4550000000023, 345.6950000000023, 345.93500000000233, 346.17500000000234, 346.41500000000235]
 Recorded cash and eco values (4648.0,1209.6) at time 345.0
 Advancing game to time 345.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 345.2
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 345.3
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 345.2150000000023
 Currently, the send queue looks like this: 
 [345.4550000000023, 345.6950000000023, 345.93500000000233, 346.17500000000234, 346.41500000000235, 346.65500000000236]
 Recorded cash and eco values (4608.0,1211.2) at time 345.3
 Advancing game to time 345.4
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 345.5
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 345.4550000000023
 Currently, the send queue looks like this: 
 [345.6950000000023, 345.93500000000233, 346.17500000000234, 346.41500000000235, 346.65500000000236, 346.89500000000237]
 Recorded cash and eco values (4568.0,1212.8) at time 345.5
 Advancing game to time 345.6
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 345.7
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 345.6950000000023
 Currently, the send queue looks like this: 
 [345.93500000000233, 346.17500000000234, 346.41500000000235, 346.65500000000236, 346.89500000000237, 347.1350000000024]
 Recorded cash and eco values (4528.0,1214.4) at time 345.7
 Advancing game to time 345.8
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 345.9
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 346.0
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 345.93500000000233
 Currently, the send queue looks like this: 
 [346.17500000000234, 346.41500000000235, 346.65500000000236, 346.89500000000237, 347.1350000000024, 347.3750000000024]
 Recorded cash and eco values (4488.0,1216.0) at time 346.0
 Advancing game to time 346.1
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 346.2
+ecoQueueCorrection called with eco queue: 
+[]
 Sent a set of Grouped Yellows at time 346.17500000000234
 Currently, the send queue looks like this: 
 [346.41500000000235, 346.65500000000236, 346.89500000000237, 347.1350000000024, 347.3750000000024, 347.6150000000024]
 Recorded cash and eco values (4448.0,1217.6) at time 346.2
 Advancing game to time 346.3
+ecoQueueCorrection called with eco queue: 
+[]
 Advancing game to time 346.4
+ecoQueueCorrection called with eco queue: 
+[]
 Awarded direct payment 50 at time 346.4
 Awarded direct payment 50 at time 346.4
 Recorded cash and eco values (4548.0,1217.6) at time 346.4

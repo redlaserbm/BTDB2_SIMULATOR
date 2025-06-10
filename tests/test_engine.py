@@ -1,4 +1,4 @@
-# This file is runs a series of tests on the code to make sure it functions correctly
+# This file runs a series of tests on the code to make sure it functions correctly
 # Whenever the github repo is updated, ALL these tests are run, and then the code auto-updates on b2sim
 
 # Test cases are designed in the notebooks folder prior to being written here.
