@@ -56,3 +56,29 @@ def test_eco_queue_correction_2():
     game_state.fastForward(target_round = 16)
 
     assert abs(game_state.cash - expected_output[0]) + abs(game_state.eco - expected_output[1]) < 0.01
+
+def test_eco_queue_correction_control():
+    # This test concerns an "control" example where eco queue correction is actually not needed.
+    # We need to make sure our code doesn't "un"correct cases that don't need correction.
+    
+    expected_output = [655.7999999999943,1182.899999999997]
+
+    rounds = b2.Rounds(0.1)
+
+    eco_queue = [
+        b2.ecoSend(send_name='Grouped Yellows', time = rounds.getTimeFromRound(13.9)),
+        b2.ecoSend(send_name='Grouped Pinks', time = rounds.getTimeFromRound(14.5)),
+    ]
+
+    initial_state_game = {
+        'Cash': 0,
+        'Eco': 1000,
+        'Eco Queue': eco_queue,
+        'Rounds': rounds, #Determines the lengths of the rounds in the game state
+        'Game Round': 13.99
+    }
+
+    game_state = b2.GameState(initial_state_game)
+    game_state.fastForward(target_round = 16)
+
+    assert abs(game_state.cash - expected_output[0]) + abs(game_state.eco - expected_output[1]) < 0.01

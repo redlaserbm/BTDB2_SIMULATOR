@@ -191,6 +191,7 @@ class GameState():
         # Max eco amount is useful for eco strategies which may demand strategy decisions like "stop eco at 3000 eco"
 
         self.eco_queue = initial_state.get('Eco Queue')
+        self.eco_cost = None
         if self.eco_queue is None:
             self.eco_queue = []
         self.number_of_sends = 0
@@ -452,7 +453,7 @@ class GameState():
                 self.changeEcoSend()
             else:
                 # Add code here which changes to the 0 send if for whatever reason there isn't already a send in the queue
-                if len(self.eco_queue) < 1 or (self.eco_queue[0]['Time'] is not None and self.eco_queue[0]['Time'] > self.current_time):
+                if len(self.eco_queue) < 1 or self.eco_cost is None:
                     self.eco_queue.insert(0,ecoSend(send_name='Zero'))
                     self.changeEcoSend()
 
