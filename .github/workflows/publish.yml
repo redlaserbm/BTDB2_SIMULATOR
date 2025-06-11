@@ -2,6 +2,8 @@ name: Test and Publish to PyPI
 
 on:
   push:
+    tags:
+      - 'v*.*.*'
     branches:
       - main
 
@@ -36,3 +38,13 @@ jobs:
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           password: ${{ secrets.PYPI_API_TOKEN }}
+      
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.ref_name }}
+          name: Release ${{ github.ref_name }}
+          files: |
+            dist/*.whl
+            dist/*.tar.gz
+
